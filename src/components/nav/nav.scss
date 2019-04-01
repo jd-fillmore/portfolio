@@ -1,0 +1,18 @@
+// Nav
+
+nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  a {
+    text-decoration: none;
+    &:hover, &:focus {
+      color: blue;
+    }
+  }
+  .container {
+    .column {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
