@@ -45,16 +45,7 @@ const Work = () => (
       </Container>
       <Container>
         <Column>
-          <ProjectOverview heading="Donna O'Brien Designs" description="Sketch, Custom WordPress Development, JavaScript, Bootstrap, Node, NPM" linkText="View Project" link="/donna"/>
-        </Column>
-        <Column>
-          <ProjectOverview heading="MJ Dixon" description="Sketch, Custom WordPress Development, Foundation, JavaScript, Node, NPM" linkText="View Project" link="/mj"/>
-        </Column>
-        <Column>
-          <ProjectOverview heading="Sanko Construction" description="Sketch, Custom WordPress Development, JavaScript, Bootstrap, Node, NPM" linkText="View Project" link="/sanko"/>
-        </Column>
-        <Column>
-          <ProjectOverview heading="Chris Cutaia" description="Sketch, Custom WordPress Development, Foundation, JavaScript, Node, NPM" linkText="View Project" link="/chris"/>
+          <h3>(view all button to behance - update behance!)</h3>
         </Column>
       </Container>
     </section>
