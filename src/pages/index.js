@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero/hero"
+import Skills from "../components/skills/skills"
 import Work from "../components/work/work"
 
 const Home = () => (
@@ -13,10 +14,12 @@ const Home = () => (
       description="JD Fillmore is a Niagara-based front and developer and designer. He's had the pleasure of doing work for Tim Hortons, PC Financial and Blackberry."
     />
     <Hero
-      title="I'm JD. A Front End Web Developer and Designer from Niagara, ON."
-      subtitle="As a self-taught front end web developer & designer, I marry design and development to create interactive online experiences."
+      title="Hi! I'm JD."
+      subtitle="A front end developer & designer that creates interactive online experiences."
+      description="Currently working at Thrillworks, with amazing clients such as Tim Hortons, PC Financial and Blackberry."
     />
     <Work />
+    <Skills />
   </Layout>
 )
 

@@ -1,9 +1,11 @@
 // Base
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,p,a,ol,ul {
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  line-height: 1.8;
 }
 
-p,a {
-  font-family: 'Nunito', sans-serif;
+img {
+  max-width: 100%;
 }
