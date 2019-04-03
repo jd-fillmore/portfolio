@@ -4,6 +4,8 @@ import Container from "../container/container"
 import Column from "../column/column"
 import ProjectOverview from "../project-overview/project-overview"
 
+import "../work/work.scss"
+
 const Work = () => (
   <>
     <section className="work">

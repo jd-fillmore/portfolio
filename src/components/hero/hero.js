@@ -10,7 +10,7 @@ class Hero extends Component {
     return (
       <section className="hero">
         <Container>
-          <Column>
+          <Column id="first">
             <h1>{this.props.title}</h1>
           </Column>
           <Column>

@@ -1,3 +1,6 @@
+@import "../variables.scss";
+@import "../breakpoints.scss";
+
 // Nav
 
 nav {
@@ -24,4 +27,8 @@ nav {
       justify-content: space-between;
     }
   }
+}
+
+.right {
+  float: right;
 }

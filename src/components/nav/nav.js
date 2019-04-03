@@ -3,6 +3,8 @@ import React from "react"
 import Container from "../container/container"
 import Column from "../column/column"
 
+import "../variables.scss"
+import "../base.scss"
 import "../nav/nav.scss"
 
 const Nav = () => (
@@ -11,10 +13,12 @@ const Nav = () => (
       <Column>
         <Link to="/">JD Fillmore</Link>
       </Column>
-      <Column className="right">
-        <Link to="/">Work</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+      <Column>
+        <div className="right">
+          <Link to="/">Work</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
       </Column>
     </Container>
   </nav>
