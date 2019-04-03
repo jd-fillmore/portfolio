@@ -8,8 +8,8 @@ class ProjectOverview extends Component {
     return (
       <Card>
         <img src="https://via.placeholder.com/350x350" alt="placeholder"/>
-        <h1>{this.props.heading}</h1>
         <p>{this.props.description}</p>
+        <h1>{this.props.heading}</h1>
         <Link to={this.props.link}>{this.props.linkText}</Link>
       </Card>
     );
