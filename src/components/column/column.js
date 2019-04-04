@@ -11,3 +11,14 @@ class Column extends Component {
 }
 
 export default Column;
+
+// Styles
+
+// const Column = styled.div`
+//   display: block;
+//   flex-basis: 0;
+//   flex-grow: 1;
+//   flex-shrink: 1;
+//   padding-left: .75rem;
+//   padding-right: .75rem;
+// `;

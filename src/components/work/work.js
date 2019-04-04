@@ -17,13 +17,13 @@ const Work = () => (
       </Container>
       <Container>
         <Column>
-          <ProjectOverview heading="Final Fantasy 7 Character Stats" description="HTML5 • CSS3 • Sketch • React • JavaScript • Flexbox • Netlify" linkText="View Project" link="/ff7"/>
+          <ProjectOverview heading="Final Fantasy 7 Character Stats" description="HTML5, CSS3, Sketch, React, JavaScript, Flexbox, Netlify" linkText="View Project" link="/ff7"/>
         </Column>
         <Column>
-          <ProjectOverview heading="Infused Agency" description="HTML5 • CSS3 • Sketch • Vue • Gridsome • JavaScript • Bootstrap 4 • Netlify" linkText="View Project" link="/infused"/>
+          <ProjectOverview heading="Infused Agency" description="HTML5, CSS3, Sketch, Vue, Gridsome, JavaScript, Bootstrap 4, Netlify" linkText="View Project" link="/infused"/>
         </Column>
         <Column>
-          <ProjectOverview heading="Portfolio" description="HTML5 • CSS3 • Sketch • React • Gatsby • JavaScript • Flexbox" linkText="View Project" link="/portfolio"/>
+          <ProjectOverview heading="Portfolio" description="HTML5, CSS3, Sketch, React, Gatsby, JavaScript, Flexbox" linkText="View Project" link="/portfolio"/>
         </Column>
       </Container>
       <Container>
@@ -33,18 +33,16 @@ const Work = () => (
       </Container>
       <Container>
         <Column>
-          <ProjectOverview heading="Tim Hortons" description="HTML5 • CSS3 • Sketch • JavaScript • Foundation" linkText="View Project" link="/tims"/>
+          <ProjectOverview heading="Tim Hortons" description="HTML5, CSS3, Sketch, JavaScript, Foundation" linkText="View Project" link="/tims"/>
         </Column>
         <Column>
-          <ProjectOverview heading="Cardon Rehab" description="HTML5 • CSS3 • Sketch • Custom WordPress Development • Foundation • JavaScript" linkText="View Project" link="/cardon"/>
-        </Column>
-      </Container>
-      <Container>
-        <Column>
-          <ProjectOverview heading="Hammond Power" description="HTML5 • CSS3 • Sketch • Custom WordPress Development • Foundation • JavaScript" linkText="View Project" link="/local"/>
+          <ProjectOverview heading="Cardon Rehab" description="HTML5, CSS3, Sketch, Custom WordPress Development, Foundation, JavaScript" linkText="View Project" link="/cardon"/>
         </Column>
         <Column>
-        <ProjectOverview heading="CMA Mortgages" description="HTML5 • CSS3 • Sketch • Custom WordPress Development • Bootstrap 4" linkText="View Project" link="/cma"/>
+          <ProjectOverview heading="Hammond Power" description="HTML5, CSS3, Sketch, Custom WordPress Development, Foundation, JavaScript" linkText="View Project" link="/local"/>
+        </Column>
+        <Column>
+        <ProjectOverview heading="CMA Mortgages" description="HTML5, CSS3, Sketch, Custom WordPress Development, Bootstrap 4" linkText="View Project" link="/cma"/>
         </Column>
       </Container>
       <Container>
