@@ -7,7 +7,7 @@ class ProjectOverview extends Component {
   render() {
     return (
       <Card>
-        <img src="https://via.placeholder.com/350x350" alt="placeholder"/>
+        <img src={this.props.image} alt="placeholder"/>
         <p>{this.props.description}</p>
         <h3>{this.props.heading}</h3>
         <Link to={this.props.link}>{this.props.linkText}</Link>
