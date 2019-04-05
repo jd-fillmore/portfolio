@@ -1,6 +1,21 @@
 @import "variables";
 @import "breakpoints";
 
+h1,h2,h3,h4,h5,h6,p,a,ol,ul {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: $heading;
+}
+
+p,ol,ul {
+  color: $body;
+  font-size: 18px;
+}
+
 h1 {
 	font-size: 40px;
 	@include bp-mobile {
@@ -9,7 +24,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2.25rem;
+	font-size: 36px;
 	@include bp-mobile {
 		font-size: 30px;
 	}

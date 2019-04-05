@@ -17,12 +17,12 @@ class Footer extends Component {
     return (
       <footer>
         <Container>
-          <Column>
+          <Column className="column">
             <p>
               © {new Date().getFullYear()} | Built with Gatsby + React + Flexbox
             </p>
           </Column>
-          <Column>
+          <Column className="column">
             <a
               href="https://github.com/jd-fillmore/"
               target="_blank"

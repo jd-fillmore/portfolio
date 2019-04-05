@@ -10,43 +10,43 @@ const Work = () => (
   <>
     <section className="work">
       <Container>
-        <Column>
+        <Column className="column">
           <h2>Featured Work</h2>
-          <h3>Side Projects</h3>
+          <h3>Self-Learning Side Projects</h3>
         </Column>
       </Container>
       <Container>
-        <Column>
-          <ProjectOverview heading="Final Fantasy 7 Character Stats" description="HTML5, CSS3, Sketch, React, JavaScript, Flexbox, Netlify" linkText="View Project" link="/ff7"/>
+        <Column className="column">
+          <ProjectOverview heading="Final Fantasy Stats" description="JavaScript and React-based web application" linkText="View Project" link="/ff7"/>
         </Column>
-        <Column>
-          <ProjectOverview heading="Infused Agency" description="HTML5, CSS3, Sketch, Vue, Gridsome, JavaScript, Bootstrap 4, Netlify" linkText="View Project" link="/infused"/>
+        <Column className="column">
+          <ProjectOverview heading="Infused Agency" description="Static generated site on VueJS, JavaScript and Gridsome" linkText="View Project" link="/infused"/>
         </Column>
-        <Column>
-          <ProjectOverview heading="Portfolio" description="HTML5, CSS3, Sketch, React, Gatsby, JavaScript, Flexbox" linkText="View Project" link="/portfolio"/>
-        </Column>
+        <Column className="column">
+          <ProjectOverview heading="Portfolio" description="Static generated site on React, Gatsby and JavaScript" linkText="View Project" link="/portfolio"/>
+        </Column>  
       </Container>
       <Container>
-        <Column>
+        <Column className="column">
           <h3>Paid Projects</h3>
         </Column>
       </Container>
       <Container>
-        <Column>
-          <ProjectOverview heading="Tim Hortons" description="HTML5, CSS3, Sketch, JavaScript, Foundation" linkText="View Project" link="/tims"/>
+        <Column className="column">
+          <ProjectOverview heading="Tim Hortons" description="Built with HTML5, CSS3, Sass and JavaScript" linkText="View Project" link="/tims"/>
         </Column>
-        <Column>
-          <ProjectOverview heading="Cardon Rehab" description="HTML5, CSS3, Sketch, Custom WordPress Development, Foundation, JavaScript" linkText="View Project" link="/cardon"/>
+        <Column className="column">
+          <ProjectOverview heading="Cardon Rehab" description="Developed using a custom WordPress theme, " linkText="View Project" link="/cardon"/>
         </Column>
-        <Column>
+        <Column className="column">
           <ProjectOverview heading="Hammond Power" description="HTML5, CSS3, Sketch, Custom WordPress Development, Foundation, JavaScript" linkText="View Project" link="/local"/>
         </Column>
-        <Column>
+        <Column className="column">
         <ProjectOverview heading="CMA Mortgages" description="HTML5, CSS3, Sketch, Custom WordPress Development, Bootstrap 4" linkText="View Project" link="/cma"/>
         </Column>
       </Container>
       <Container>
-        <Column>
+        <Column className="column">
           <h3>(view all button to behance - update behance!)</h3>
         </Column>
       </Container>

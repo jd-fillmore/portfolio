@@ -9,7 +9,7 @@ class ProjectOverview extends Component {
       <Card>
         <img src="https://via.placeholder.com/350x350" alt="placeholder"/>
         <p>{this.props.description}</p>
-        <h1>{this.props.heading}</h1>
+        <h3>{this.props.heading}</h3>
         <Link to={this.props.link}>{this.props.linkText}</Link>
       </Card>
     );

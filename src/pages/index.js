@@ -9,13 +9,11 @@ import Work from "../components/work/work"
 const Home = () => (
   <Layout>
     <SEO
-      title="Niagara Front End Developer, Designer"
-      keywords={[`gatsby`, `application`, `react`]}
-      description="JD Fillmore is a Niagara-based front and developer and designer. He's had the pleasure of doing work for Tim Hortons, PC Financial and Blackberry."
+      title="Web Developer in Toronto, Front End Designer"
+      description="As a front end web developer in Toronto, and designer, JD Fillmore has had the pleasure of doing work for Tim Hortons, PC Financial and Blackberry. Contact him today to see how he can help."
     />
     <Hero
-      title="Hi! I'm JD."
-      subtitle="A front end developer & designer that creates interactive online experiences."
+      title="Hi! I'm JD. A front end designer &amp; web developer in Toronto that creates interactive online experiences."
       description="Currently working at Thrillworks, with amazing clients such as Tim Hortons, PC Financial and Blackberry."
     />
     <Work />

@@ -28,57 +28,57 @@ class Skills extends Component {
     return (
       <div className="skills">
         <Container>
-          <Column>
+          <Column className="column">
             <h2>Technical Skills</h2>
           </Column>
         </Container>
         <Container>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faHtml5} />
           </Column>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faCss3} />
           </Column>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faSass} />
           </Column>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faJs} />
           </Column>
         </Container>
         <Container>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faWordpress} />
           </Column>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faReact} />
           </Column>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faVuejs} />
           </Column>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faGit} />
           </Column>
         </Container>
         <Container>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faBootstrap} />
           </Column>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faSketch} />
           </Column>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faAdobe} />
           </Column>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faGithub} />
           </Column>
         </Container>
         <Container>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faNode} />
           </Column>
-          <Column>
+          <Column className="column">
             <FontAwesomeIcon icon={faNpm} />
           </Column>
         </Container>

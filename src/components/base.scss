@@ -3,21 +3,6 @@
 
 // Base
 
-h1,h2,h3,h4,h5,h6,p,a,ol,ul {
-  font-family: 'Open Sans', sans-serif;
-  margin-bottom: 20px;
-  line-height: 1.8;
-}
-
-h1,h2,h3,h4,h5,h6,a {
-  color: $primary;
-}
-
-p,ol,ul {
-  color: $secondary;
-  font-size: 18px;
-}
-
 img {
   max-width: 100%;
   width: 100%;
