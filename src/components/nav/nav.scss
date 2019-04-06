@@ -3,10 +3,41 @@
 
 // Nav
 
+.nav-desktop {
+  @include bp-tablet {
+    display: none;
+  }
+}
+
 nav {
   padding-top: 20px;
   padding-bottom: 20px;
+  background: rgba($white, 0.9);
+  @media (min-width: 1025px) {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .nav-mobile {
+    @media (min-width: 1025px) {
+      display: none;
+    }
+    .hamburger {
+      div {
+        width: 30px;
+        height: 1px;
+        background-color: $secondary;
+        margin-top: 7px;
+      }
+    }
+  }
+  a {
+    margin-bottom: 0px !important;
+  }
   .right {
+    display: flex;
+    justify-content: flex-end;
     a {
       text-decoration: none;
       text-transform: uppercase;
@@ -21,12 +52,9 @@ nav {
     }
   }
   .container {
+    align-items: center;
     .column {
       display: flex;
     }
-  }
-  .right {
-    display: flex;
-    justify-content: flex-end;
   }
 }

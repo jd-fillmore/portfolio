@@ -3,6 +3,7 @@ import React from "react"
 import Container from "../container/container"
 import Column from "../column/column"
 import ProjectOverview from "../project-overview/project-overview"
+import Button from "../button/button"
 
 import ff7 from "../../images/ff7.jpg"
 import infused from "../../images/infused.jpg"
@@ -20,27 +21,11 @@ const Work = () => (
       <Container className="container">
         <Column className="column">
           <h2>Featured Work</h2>
-          <h3>Self-Learning Side Projects</h3>
+          <h3>Projects</h3>
         </Column>
       </Container>
-      <Container className="container">
-        <Column className="column">
-          <ProjectOverview image={ff7} altTag="FF7 Stats App" heading="Final Fantasy Stats" description="JavaScript and React-based web application" linkText="View Project" link="/ff7"/>
-        </Column>
-        <Column className="column">
-          <ProjectOverview image={infused} altTag="Infused Agency" heading="Infused Agency" description="Static generated site on VueJS, JavaScript and Gridsome" linkText="View Project" link="/infused"/>
-        </Column>
-        <Column className="column">
-          <ProjectOverview image={portfolio} altTag="Portfolio" heading="Portfolio" description="Static generated site on React, Gatsby and JavaScript" linkText="View Project" link="/portfolio"/>
-        </Column>  
-      </Container>
-      <Container className="container">
-        <Column className="column">
-          <h3>Paid Projects</h3>
-        </Column>
-      </Container>
-      {/* Row 1 */}
-      <Container className="container">
+       {/* Row 1 */}
+       <Container className="container">
         <Column className="column">
           <ProjectOverview image={tims} altTag="Tim's" heading="Tim Hortons" description="Built with HTML5, CSS3, Sass and JavaScript" linkText="View Project" link="/tims"/>
         </Column>
@@ -59,7 +44,23 @@ const Work = () => (
       </Container>
       <Container className="container">
         <Column className="column">
-          <h3>(view all button to behance - update behance!)</h3>
+          <h3>Self-Learning Side Projects</h3>
+        </Column>
+      </Container>
+      <Container className="container">
+        <Column className="column flex">
+          <ProjectOverview image={ff7} altTag="FF7 Stats App" heading="Final Fantasy Stats" description="JavaScript and React-based web application" linkText="View Project" link="/ff7"/>
+        </Column>
+        <Column className="column flex">
+          <ProjectOverview image={infused} altTag="Infused Agency" heading="Infused Agency" description="Static generated site on VueJS, JavaScript and Gridsome" linkText="View Project" link="/infused"/>
+        </Column>
+        <Column className="column flex">
+          <ProjectOverview image={portfolio} altTag="Portfolio" heading="Portfolio" description="Static generated site on React, Gatsby and JavaScript" linkText="View Project" link="/portfolio"/>
+        </Column>  
+      </Container>
+      <Container className="container">
+        <Column className="column work-row">
+        <a href="https://www.behance.net/jdfillmore" target="_blank" rel="noopener noreferrer"><Button className="work-btn">View More Work</Button></a>
         </Column>
       </Container>
     </section>

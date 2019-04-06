@@ -81,6 +81,12 @@ class Skills extends Component {
           <Column className="column">
             <FontAwesomeIcon icon={faNpm} />
           </Column>
+          <Column className="column">
+            &nbsp;
+          </Column>
+          <Column className="column">
+            &nbsp;
+          </Column>
         </Container>
       </div>
     )

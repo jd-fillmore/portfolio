@@ -1,0 +1,23 @@
+@import "../variables.scss";
+@import "../breakpoints.scss";
+
+// Button
+
+button {
+  background-image: linear-gradient(to right, $primary, $secondary);
+  color: $white;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  box-shadow: none;
+  padding: 20px 60px 20px 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  transition: .2s;
+  &:focus, &:hover {
+    transform: translate3D(0, -5px, 0);
+    box-shadow: 0 10px 20px #c7c7c7;
+    cursor: pointer;
+  }
+}

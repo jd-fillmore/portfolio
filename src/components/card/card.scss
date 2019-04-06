@@ -19,10 +19,14 @@
     margin-top: 0px;
     color: $secondary;
     margin-bottom: 5px;
+    transition: .2s;
+    &:focus, &:hover {
+      color: $primary;
+    }
   }
   a {
     text-decoration: none;
-    color: $primary;
+    color: $body;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;

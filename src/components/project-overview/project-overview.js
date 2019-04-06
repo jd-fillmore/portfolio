@@ -10,7 +10,7 @@ class ProjectOverview extends Component {
         <img src={this.props.image} alt={this.props.altTag}/>
         <div className="pad">
           <p>{this.props.description}</p>
-          <h3>{this.props.heading}</h3>
+          <Link to={this.props.link}><h3>{this.props.heading}</h3></Link>
           <Link to={this.props.link}>{this.props.linkText}</Link>
         </div>
       </Card>

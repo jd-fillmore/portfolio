@@ -7,13 +7,26 @@
   background: $grey;
   padding-top: 80px;
   padding-bottom: 80px;
-  // .column {
-  //   display: flex;
-  // }
+  .flex {
+    display: flex;
+  }
   p {
     font-size: 14px;
   }
+  h3 {
+    text-transform: none;
+    letter-spacing: 0px;
+  }
   .two {
     margin-top: 20px;
+  }
+  .work-row {
+    display: flex;
+    justify-content: center;
+    button {
+      &.work-btn {
+        margin-top: 60px;
+      }
+    }
   }
 }

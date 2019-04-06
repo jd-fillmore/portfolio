@@ -18,11 +18,12 @@ class Footer extends Component {
       <footer>
         <Container className="container">
           <Column className="column">
+            <h4>Let's Connect</h4>
+            <p>Feel free to reach out to me with project ideas or just a friendly hello.</p>
+            <a href="mailto:jd@jdfill.me">jd@jdfill.me</a>
             <p>
               © {new Date().getFullYear()} | Built with Gatsby + React + Flexbox
             </p>
-          </Column>
-          <Column className="column">
             <a
               href="https://github.com/jd-fillmore/"
               target="_blank"
