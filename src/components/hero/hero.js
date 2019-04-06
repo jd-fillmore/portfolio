@@ -26,13 +26,15 @@ class Hero extends Component {
               href="https://github.com/jd-fillmore/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="github"
             >
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon aria icon={faGithub} />
             </a>
             <a
               href="https://www.linkedin.com/in/jdfillmore/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="linkedin"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
@@ -40,6 +42,7 @@ class Hero extends Component {
               href="https://www.behance.net/jdfillmore"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="behance"
             >
               <FontAwesomeIcon icon={faBehance} />
             </a>
@@ -47,6 +50,7 @@ class Hero extends Component {
               href="mailto:jd@jdfill.me"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="email"
             >
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
