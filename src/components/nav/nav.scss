@@ -6,18 +6,18 @@
 nav {
   padding-top: 20px;
   padding-bottom: 20px;
-  .container {
+  .right {
     a {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-  }
-  a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    &:hover, &:focus {
-      color: blue;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: $primary;
+      margin-left: 40px;
+      &:hover, &:focus {
+        color: $secondary;
+      }
     }
   }
   .container {

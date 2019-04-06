@@ -10,7 +10,7 @@ import "../nav/nav.scss"
 
 const Nav = () => (
   <nav>
-    <Container>
+    <Container className="container">
       <Column className="column">
         <Link to="/"><img src={logo} alt="JD Fillmore Logo" /></Link>
       </Column>

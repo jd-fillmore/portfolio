@@ -16,7 +16,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <Container>
+        <Container className="container">
           <Column className="column">
             <p>
               © {new Date().getFullYear()} | Built with Gatsby + React + Flexbox

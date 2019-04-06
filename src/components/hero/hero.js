@@ -18,7 +18,7 @@ class Hero extends Component {
   render() {
     return (
       <section className="hero">
-        <Container>
+        <Container className="container">
           <Column className="column">
             <h1>{this.props.title}</h1>
             <p>{this.props.description}</p>

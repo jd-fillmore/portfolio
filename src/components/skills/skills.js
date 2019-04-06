@@ -27,12 +27,12 @@ class Skills extends Component {
   render() {
     return (
       <div className="skills">
-        <Container>
+        <Container className="container">
           <Column className="column">
             <h2>Technical Skills</h2>
           </Column>
         </Container>
-        <Container>
+        <Container className="container">
           <Column className="column">
             <FontAwesomeIcon icon={faHtml5} />
           </Column>
@@ -46,7 +46,7 @@ class Skills extends Component {
             <FontAwesomeIcon icon={faJs} />
           </Column>
         </Container>
-        <Container>
+        <Container className="container">
           <Column className="column">
             <FontAwesomeIcon icon={faWordpress} />
           </Column>
@@ -60,7 +60,7 @@ class Skills extends Component {
             <FontAwesomeIcon icon={faGit} />
           </Column>
         </Container>
-        <Container>
+        <Container className="container">
           <Column className="column">
             <FontAwesomeIcon icon={faBootstrap} />
           </Column>
@@ -74,7 +74,7 @@ class Skills extends Component {
             <FontAwesomeIcon icon={faGithub} />
           </Column>
         </Container>
-        <Container>
+        <Container className="container">
           <Column className="column">
             <FontAwesomeIcon icon={faNode} />
           </Column>
