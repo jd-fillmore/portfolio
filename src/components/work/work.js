@@ -20,8 +20,21 @@ const Work = () => (
     <section className="work">
       <Container className="container">
         <Column className="column">
-          <h2>Featured Work</h2>
-          <h3>Projects</h3>
+          <h2>My Purpose As Your Web Developer</h2>
+          <p>As a web developer in Toronto that works with local businesses in all sorts of different industries, I only have two main goals when it comes to your digital strategy:</p>
+          <ul>
+            <li>To help you <strong>build trust &amp; credibility</strong>, and</li>
+            <li>To help you <strong>make more money</strong></li>
+          </ul>
+        </Column>
+        <Column className="column">
+          <h2>Digital Strategy in Toronto</h2>
+          <p>A big part of my success as being a web developer in Toronto, is that I understand how digital strategy works. I understand how important that first impressions are, and also how website optimization and performance directly affects how you're perceived as a business, and how it can affect the bottom line. And as a digital strategist and web developer, it's my job to make sure your online presence reflects that you're credible and trustworthy to people that visit your website for the first time.</p>
+        </Column>
+      </Container>
+      <Container className="container">
+        <Column className="column">
+          <h3>Projects in Toronto &amp; Beyond</h3>
         </Column>
       </Container>
        {/* Row 1 */}

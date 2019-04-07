@@ -14,7 +14,7 @@ const Home = () => (
     />
     <Hero
       title="Hi! I'm JD. A front end designer &amp; web developer in Toronto that creates interactive online experiences."
-      description="Currently working at Thrillworks, with amazing clients such as Tim Hortons, PC Financial and Blackberry."
+      description="I've worked with amazing clients such as Tim Hortons, PC Financial and Blackberry."
     />
     <Work />
     <Skills />
