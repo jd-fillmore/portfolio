@@ -7,7 +7,26 @@
 
 .project-detailed {
   .intro {
-    display: flex;
-    justify-content: center;;
+    .flex {
+      display: flex;
+      align-items: center;
+    }
+    .second {
+      display: flex;
+      justify-content: flex-end;
+      @include bp-tablet {
+        justify-content: initial;
+      }
+    }
+    h1 {
+      color: $secondary;
+      margin-top: 0px;
+    }
+  }
+  .back {
+    .column {
+      display: flex;
+      justify-content: center;
+    }
   }
 }

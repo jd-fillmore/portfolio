@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 import Container from "../container/container"
 import Column from "../column/column"
-import Image from "../../images/web-developer-in-toronto.jpg";
+import Image from "../../images/niagara-front-end-web-developer.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
@@ -57,7 +57,7 @@ class Hero extends Component {
           </Column>
           <Column className="column">
             <div className="second">
-              <img src={Image} alt="Web Developer in Toronto"/>
+              <img src={Image} alt="Niagara Freelance Front End Web Developer"/>
             </div>
           </Column>
         </Container>

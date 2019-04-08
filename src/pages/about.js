@@ -11,7 +11,7 @@ const About = () => (
   <Layout>
     <SEO
       title="About"
-      description="Read a little about front end developer JD Fillmore. Click here to read more."
+      description="Read a little about front end developer JD. Click here to read more."
     />
     <Container>
       <Column>Picture</Column>
