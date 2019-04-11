@@ -14,7 +14,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
         host: 'https://jdfill.me',
         sitemap: 'https://jdfill.me/sitemap.xml',
-        policy: [{ userAgent: '*', disallow: [''] }]
+        policy: [{ userAgent: '*', allow: '/' }]
       },
     },
     {
