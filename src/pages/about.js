@@ -5,6 +5,8 @@ import Container from "../components/container/container"
 import Column from "../components/column/column"
 import SEO from "../components/seo"
 
+import Image from "../images/niagara-front-end-web-developer.jpg";
+
 import Skills from "../components/skills/skills"
 
 const About = () => (
@@ -13,9 +15,11 @@ const About = () => (
       title="About"
       description="Read a little about front end developer JD. Click here to read more."
     />
-    <Container>
-      <Column>Picture</Column>
-      <Column>
+    <Container className="container">
+      <Column className="column">
+        <img src={Image} alt="Me" />
+      </Column>
+      <Column className="column">
         <h1>About</h1>
         <p>Welcome to about</p>
         <Skills />

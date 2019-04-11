@@ -86,7 +86,7 @@ class Work extends Component {
           </Container>
           <Container className="container">
             <Column className="column">
-              <h3>Self-Learning Side Projects</h3>
+              <h3>Self-Learning Freelance Side Projects</h3>
             </Column>
           </Container>
           <Container className="container">

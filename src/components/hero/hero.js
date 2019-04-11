@@ -57,7 +57,7 @@ class Hero extends Component {
           </Column>
           <Column className="column">
             <div className="second">
-              <img src={Image} alt="Niagara Freelance Front End Web Developer"/>
+              <img src={Image} alt="Niagara Freelance Web Designer, Front End Developer"/>
             </div>
           </Column>
         </Container>

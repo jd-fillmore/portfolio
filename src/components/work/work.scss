@@ -7,6 +7,10 @@
   background: $grey;
   padding-top: 80px;
   padding-bottom: 80px;
+  @include bp-tablet {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
   .flex {
     display: flex;
   }

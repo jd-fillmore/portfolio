@@ -6,8 +6,21 @@
 .skills {
   padding-top: 80px;
   padding-bottom: 80px;
+  @include bp-tablet {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .container {
+    @include bp-tablet {
+      display: flex;
+    }
+  }
   h2 {
     margin-bottom: 50px;
+    @include bp-tablet {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
   }
   svg {
     color: $primary;

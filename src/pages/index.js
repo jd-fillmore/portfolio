@@ -9,15 +9,15 @@ import Work from "../components/work/work"
 const Home = () => (
   <Layout>
     <SEO
-      title="Niagara Freelance Front End Web Developer &amp; Designer"
-      description="Niagara freelance front end web developer. JD has has had the pleasure of doing work for Tim Hortons, PC Financial and Blackberry. Contact him today to see how he can help."
+      title="Niagara Freelance Web Designer, Front End Developer"
+      description="Niagara freelance web designer, front end developer. JD has has had the pleasure of doing work for Tim Hortons, PC Financial and Blackberry. Contact him today to see how he can help."
     />
     <Hero
-      title="Hi! I'm JD. A Niagara freelance front end web developer that creates interactive online experiences."
+      title="Hi! I'm JD. A Niagara freelance web designer and front end developer that creates interactive online experiences."
       description="I've worked with amazing clients such as Tim Hortons, PC Financial and Blackberry."
     />
     <Work
-      introDescription="As a Niagara front end web developer that works with local businesses in all sorts of different industries, I only have two main goals when it comes to your any businesses digital strategy:"
+      introDescription="As a Niagara freelance web designer and front end web developer that works with local businesses in all sorts of different industries, I only have two main goals when it comes to your any businesses digital strategy:"
       introPointOne="To help build trust &amp; credibility, and"
       introPointTwo="To help make more money"
       introDescriptionTwo="A big part of my success as being a Niagara front end web developer, is that I understand how digital strategy works."
