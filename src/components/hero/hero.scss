@@ -33,6 +33,10 @@
   .second {
     display: flex;
     justify-content: flex-end;
+    @include bp-mobile {
+      display: block;
+      justify-content: initial;
+    }
   }
   img {
     width: 350px;

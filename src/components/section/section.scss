@@ -5,7 +5,7 @@
 
 .inner {
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 120px;
   @include bp-tablet {
     padding-top: 30px;
     padding-bottom: 50px;
@@ -13,6 +13,11 @@
   @include bp-mobile {
     h1 {
       font-size: 22px;
+    }
+  }
+  .flex {
+    @include bp-mobile {
+      display: flex;
     }
   }
 }
