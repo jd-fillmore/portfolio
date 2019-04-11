@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `JD`,
     description: `The website of JD.`,
-    siteUrl: `https:/jdfill.me`,
+    siteUrl: `https://jdfill.me`,
     author: `@gatsbyjs`,
   },
   plugins: [
