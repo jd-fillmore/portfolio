@@ -12,6 +12,9 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+        host: 'https://jdfill.me',
+        sitemap: 'https://jdfill.me/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
       },
     },
     {
@@ -25,6 +28,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-robots-txt',
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
