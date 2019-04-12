@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import Section from "../components/section/section"
 
 import "../pages/about.scss"
-import Image from "../images/niagara-front-end-web-developer.jpg";
+import Image from "../images/burlington-freelance-web-design.jpg";
 
 const About = () => (
   <Layout>
