@@ -20,7 +20,7 @@ class Work extends Component {
     return (
       <>
         <section className="work">
-          <Container className="container">
+          {/* <Container className="container">
             <Column className="column">
               <p>{this.props.introDescription}</p>
               <ul>
@@ -32,10 +32,10 @@ class Work extends Component {
             <Column className="column">
               <p>{this.props.introDescriptionThree}</p>
             </Column>
-          </Container>
+          </Container> */}
           <Container className="container">
             <Column className="column">
-              <h3>Projects in Niagara &amp; Beyond</h3>
+              <h3>Featured Projects</h3>
             </Column>
           </Container>
           {/* Row 1 */}

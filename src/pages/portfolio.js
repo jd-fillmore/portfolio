@@ -24,7 +24,7 @@ const Portfolio = () => (
           altTag="portfolio intro image"
           projectTitle="Portfolio"
           projectLink="https://jdfill.me"
-          projectDescription="I wanted to learn VueJS, and Gridsome (a Vue-based static site generator). I also wanted to see if I could rank a side website for a competitive SEO term. So, I decided to build it. I also blog frequently about the business side of SEO, website design and website development."
+          projectDescription="I wanted to learn Gatsby (a React-based static site generator), so I decided to build my portfolio using those technologies. I learned a ton about not only React, but also JavaScript in the process as well. Gatsby is extremely fast, and seems to be a perfect fit for creating any website moving forward."
           techUsed="Static generated site on VueJS, JavaScript, Gridsome, HTML5, CSS3, Bootstrap 4, NPM, Node"
           splitImage={portfolioSplitImage}
           altTagSplit="portfolio split image"

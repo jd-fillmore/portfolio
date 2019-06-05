@@ -24,7 +24,7 @@ const CMA = () => (
           altTag="cma intro image"
           projectTitle="Canadian Mortgage Authority"
           projectLink="https://canadianmortgageauthority.com"
-          projectDescription="While employed by Thrillworks, cma Rehab requested for us to build them a modern website based on WordPress that allowed them to showcase their products to the world."
+          projectDescription="Canadian Mortgage Authority contacted me for a website, as their then-current one was not optimized, lacked responsiveness and wasn't performing well sales-wise. With speed, performance and UX in mind, I designed and build a website for him that performs much better than the last."
           techUsed="HTML5, CSS3, Sass, JavaScript, Custom WordPress Theme, NPM, Node, Foundation, Photoshop, Sketch"
           splitImage={cmaSplitImage}
           altTagSplit="cma split image"
