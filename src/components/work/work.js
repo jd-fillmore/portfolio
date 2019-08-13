@@ -23,7 +23,8 @@ class Work extends Component {
           <Container className="container">
             <Column className="column">
               <h3>
-                Featured Niagara Freelance Web Designer &amp; Developer Projects
+                Featured Burlington Freelance Web Designer &amp; Developer
+                Projects
               </h3>
             </Column>
           </Container>
