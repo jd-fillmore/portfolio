@@ -35,7 +35,7 @@ class Work extends Component {
           </Container> */}
           <Container className="container">
             <Column className="column">
-              <h3>Featured Projects</h3>
+              <h3>Featured Niagara Freelance Web Developer Projects</h3>
             </Column>
           </Container>
           {/* Row 1 */}
