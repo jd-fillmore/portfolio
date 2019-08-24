@@ -3,24 +3,6 @@ import React, { Component } from "react"
 import Container from "../container/container"
 import Column from "../column/column"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faWordpress,
-  faHtml5,
-  faCss3,
-  faSass,
-  faJs,
-  faReact,
-  faVuejs,
-  faGit,
-  faBootstrap,
-  faSketch,
-  faAdobe,
-  faGithub,
-  faNode,
-  faNpm,
-} from "@fortawesome/free-brands-svg-icons"
-
 import "../skills/skills.scss"
 
 class Skills extends Component {
@@ -34,60 +16,47 @@ class Skills extends Component {
         </Container>
         <Container className="container">
           <Column className="column">
-            <FontAwesomeIcon icon={faHtml5} />
+            <p>HTML5</p>
           </Column>
           <Column className="column">
-            <FontAwesomeIcon icon={faCss3} />
+            <p>CSS3</p>
           </Column>
           <Column className="column">
-            <FontAwesomeIcon icon={faSass} />
+            <p>Sass</p>
           </Column>
           <Column className="column">
-            <FontAwesomeIcon icon={faJs} />
+            <p>JavaScript</p>
           </Column>
         </Container>
         <Container className="container">
           <Column className="column">
-            <FontAwesomeIcon icon={faWordpress} />
+            <p>WordPress</p>
           </Column>
           <Column className="column">
-            <FontAwesomeIcon icon={faReact} />
+            <p>ReactJS</p>
           </Column>
           <Column className="column">
-            <FontAwesomeIcon icon={faVuejs} />
+            <p>VueJS</p>
           </Column>
           <Column className="column">
-            <FontAwesomeIcon icon={faGit} />
+            <p>Git</p>
           </Column>
         </Container>
         <Container className="container">
           <Column className="column">
-            <FontAwesomeIcon icon={faBootstrap} />
+            <p>Bootstrap</p>
           </Column>
           <Column className="column">
-            <FontAwesomeIcon icon={faSketch} />
+            <p>Sketch</p>
           </Column>
           <Column className="column">
-            <FontAwesomeIcon icon={faAdobe} />
+            <p>Photoshop</p>
           </Column>
           <Column className="column">
-            <FontAwesomeIcon icon={faGithub} />
+            <p>Github</p>
           </Column>
         </Container>
-        <Container className="container">
-          <Column className="column">
-            <FontAwesomeIcon icon={faNode} />
-          </Column>
-          <Column className="column">
-            <FontAwesomeIcon icon={faNpm} />
-          </Column>
-          <Column className="column">
-            &nbsp;
-          </Column>
-          <Column className="column">
-            &nbsp;
-          </Column>
-        </Container>
+       
       </div>
     )
   }
