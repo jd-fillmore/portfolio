@@ -22,9 +22,11 @@ class Work extends Component {
         <section className="work">
           <Container className="container">
             <Column className="column">
-              <h3>
-                Featured WordPress and other web development projects
-              </h3>
+              <h3>Featured Client Projects</h3>
+              <p>
+                Utilizing ReactJS, Gatsby, HTML5, CSS3, JavaScript, WordPress
+                and more
+              </p>
             </Column>
           </Container>
           {/* Row 1 */}
@@ -76,6 +78,9 @@ class Work extends Component {
           <Container className="container">
             <Column className="column">
               <h3>Self-Learning Web Development</h3>
+              <p>
+                Utilizing ReactJS, Gatsby, VueJS, HTML5, CSS3 and JavaScript
+              </p>
             </Column>
           </Container>
           <Container className="container">
@@ -94,7 +99,7 @@ class Work extends Component {
                 image={infused}
                 altTag="Infused Agency"
                 heading="Infused Agency"
-                description="Static generated site on VueJS, JavaScript and Gridsome"
+                description="Static site on VueJS, JavaScript and Gridsome"
                 linkText="View Project"
                 link="/infused"
               />
