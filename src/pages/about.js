@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 import Section from "../components/section/section"
 
 import "../pages/about.scss"
-import Image from "../images/burlington-freelance-web-designer.jpg"
 import Resume from "../resume.pdf"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -36,9 +35,6 @@ const About = () => (
     />
     <Section className="about inner">
       <Container className="container">
-        <Column className="column">
-          <img src={Image} alt="Me" />
-        </Column>
         <Column className="column">
           <h1>About</h1>
           <p>Hi, I'm JD.</p>
