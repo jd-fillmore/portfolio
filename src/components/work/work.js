@@ -12,6 +12,7 @@ import portfolio from "../../images/port.jpg"
 import cardon from "../../images/cardon.jpg"
 import hps from "../../images/hps.jpg"
 import cma from "../../images/cma.jpg"
+import mcAesthetics from "../../images/mc.jpg"
 
 import "../work/work.scss"
 
@@ -36,19 +37,19 @@ class Work extends Component {
                 image={tims}
                 altTag="Tim's"
                 heading="Tim Hortons"
-                description="Built with HTML5, CSS3, Sass and JavaScript"
+                description="HTML5, CSS3, Sass and JavaScript"
                 linkText="View Project"
                 link="/tims"
               />
             </Column>
             <Column className="column">
               <ProjectOverview
-                image={cardon}
-                altTag="Cardon"
-                heading="Cardon Rehab"
-                description="Custom WordPress build, HTML5, Sass and JavaScript"
+                image={mcAesthetics}
+                altTag="MC Aesthetics"
+                heading="MC Aesthetics"
+                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
                 linkText="View Project"
-                link="/cardon"
+                link="/mc-aesthetics"
               />
             </Column>
           </Container>
@@ -74,6 +75,20 @@ class Work extends Component {
                 link="/cma"
               />
             </Column>
+          </Container>
+          {/* Row 3 */}
+          <Container className="container two">
+            <Column className="column">
+              <ProjectOverview
+                image={cardon}
+                altTag="Cardon"
+                heading="Cardon Rehab"
+                description="Custom WordPress build, HTML5, Sass and JavaScript"
+                linkText="View Project"
+                link="/cardon"
+              />
+            </Column>
+            <Column className="column">&nbsp;</Column>
           </Container>
           <Container className="container">
             <Column className="column">
