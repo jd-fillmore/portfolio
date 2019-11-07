@@ -14,8 +14,8 @@ import ProjectDetailed from "../components/project-detailed/project-detailed"
 const Cardon = () => (
   <Layout>
     <SEO
-      title="Cardon Rehab"
-      description="I helped build out the front end of Cardon Rehab's new website. Click here to learn more."
+      title="ReactJS MovieDB API"
+      description="In order to learn ReactJS, I decided to build out a movieDB API. Click here to learn more."
     />
     <Container>
       <Column>
