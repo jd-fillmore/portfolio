@@ -13,7 +13,7 @@ const Home = () => (
       description="JD Fillmore is a web developer in Grimsby, ON that specializes in WordPress and React development, and other website development technologies. Click here to start your next project."
     />
     <Hero
-      title="Hi! I'm JD. A front end developer from Grimsby, Ontario that creates interactive online experiences."
+      title="Hi! I'm JD. A frontend developer &amp; UI designer that creates interactive online experiences."
       description="I've worked with amazing clients such as Tim Hortons, PC Financial and Blackberry."
     />
     <Work />

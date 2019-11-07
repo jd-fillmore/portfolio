@@ -13,6 +13,7 @@ import cardon from "../../images/cardon.jpg"
 import hps from "../../images/hps.jpg"
 import cma from "../../images/cma.jpg"
 import mcAesthetics from "../../images/mc.jpg"
+import reactMovie from "../../images/react-movie-api.jpg"
 
 import "../work/work.scss"
 
@@ -21,6 +22,30 @@ class Work extends Component {
     return (
       <>
         <section className="work">
+          <Container className="container">
+            <Column className="column">
+              <h3>Featured ReactJS Project</h3>
+              <ProjectOverview
+                image={reactMovie}
+                altTag="React MovieDB Api"
+                heading="Movie Database API"
+                description="ReactJS, HTML5, CSS3, JavaScript, Axios, APIs, MaterialUI"
+                linkText="View Project"
+                link="/react-movie-api"
+              />
+            </Column>
+            <Column className="column">
+              <h3>Featured Frontend Project</h3>
+              <ProjectOverview
+                image={mcAesthetics}
+                altTag="MC Aesthetics"
+                heading="MC Aesthetics"
+                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
+                linkText="View Project"
+                link="/mc-aesthetics"
+              />
+            </Column>
+          </Container>
           <Container className="container">
             <Column className="column">
               <h3>Featured Client Projects</h3>
@@ -44,12 +69,12 @@ class Work extends Component {
             </Column>
             <Column className="column">
               <ProjectOverview
-                image={mcAesthetics}
-                altTag="MC Aesthetics"
-                heading="MC Aesthetics"
-                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
+                image={cardon}
+                altTag="Cardon"
+                heading="Cardon Rehab"
+                description="Custom WordPress build, HTML5, Sass and JavaScript"
                 linkText="View Project"
-                link="/mc-aesthetics"
+                link="/cardon"
               />
             </Column>
           </Container>
@@ -75,20 +100,6 @@ class Work extends Component {
                 link="/cma"
               />
             </Column>
-          </Container>
-          {/* Row 3 */}
-          <Container className="container two">
-            <Column className="column">
-              <ProjectOverview
-                image={cardon}
-                altTag="Cardon"
-                heading="Cardon Rehab"
-                description="Custom WordPress build, HTML5, Sass and JavaScript"
-                linkText="View Project"
-                link="/cardon"
-              />
-            </Column>
-            <Column className="column">&nbsp;</Column>
           </Container>
           <Container className="container">
             <Column className="column">

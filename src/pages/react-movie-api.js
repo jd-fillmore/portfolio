@@ -1,0 +1,39 @@
+import React from "react"
+
+import Layout from "../components/layout"
+import Container from "../components/container/container"
+import Column from "../components/column/column"
+import SEO from "../components/seo"
+
+import reactIntroImage from "../images/react-movie-api-intro.jpg"
+import reactSplitImage from "../images/react-movie-api-split.jpg"
+import reactMobileImage from "../images/react-movie-api-mobile.jpg"
+
+import ProjectDetailed from "../components/project-detailed/project-detailed"
+
+const Cardon = () => (
+  <Layout>
+    <SEO
+      title="Cardon Rehab"
+      description="I helped build out the front end of Cardon Rehab's new website. Click here to learn more."
+    />
+    <Container>
+      <Column>
+        <ProjectDetailed
+          introImage={reactIntroImage}
+          altTag="react intro image"
+          projectTitle="Movie Database API"
+          projectLink="https://zeqk4.csb.app/"
+          projectDescription="I wanted to learn ReactJS as well as Axios for API fetching, since my full time job didn't allow for this type of work. I took an idea based on something I liked (movies), and made a Movie Database API search out of it."
+          techUsed="ReactJS, HTML5, CSS3, JavaScript, Axios, APIs, MaterialUI"
+          splitImage={reactSplitImage}
+          altTagSplit="react split image"
+          mobileImage={reactMobileImage}
+          altTagMobile="react mobile image"
+        />
+      </Column>
+    </Container>
+  </Layout>
+)
+
+export default Cardon
