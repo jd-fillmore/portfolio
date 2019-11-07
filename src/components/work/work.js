@@ -35,7 +35,7 @@ class Work extends Component {
               />
             </Column>
             <Column className="column">
-              <h3>Featured Frontend Project</h3>
+              <h3>Featured Client Project</h3>
               <ProjectOverview
                 image={mcAesthetics}
                 altTag="MC Aesthetics"
@@ -48,7 +48,7 @@ class Work extends Component {
           </Container>
           <Container className="container">
             <Column className="column">
-              <h3>Featured Client Projects</h3>
+              <h3>Client Projects</h3>
               <p>
                 Utilizing ReactJS, Gatsby, HTML5, CSS3, JavaScript, WordPress
                 and more
@@ -103,7 +103,7 @@ class Work extends Component {
           </Container>
           <Container className="container">
             <Column className="column">
-              <h3>Self-Learning Web Development</h3>
+              <h3>Self-Learning Side Projects</h3>
               <p>
                 Utilizing ReactJS, Gatsby, VueJS, HTML5, CSS3 and JavaScript
               </p>

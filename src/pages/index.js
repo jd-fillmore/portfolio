@@ -9,8 +9,8 @@ import Work from "../components/work/work"
 const Home = () => (
   <Layout>
     <SEO
-      title="WordPress Developer | Web Development React | Grimsby, ON"
-      description="JD Fillmore is a web developer in Grimsby, ON that specializes in WordPress and React development, and other website development technologies. Click here to start your next project."
+      title="Front End Developer Portfolio | React &amp; WordPress | Toronto, ON"
+      description="JD Fillmore's front end developer, React and WordPress portfolio. Click here to start your next project. Based in Toronto, ON."
     />
     <Hero
       title="Hi! I'm JD. A frontend developer &amp; UI designer that creates interactive online experiences."
