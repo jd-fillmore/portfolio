@@ -6,6 +6,7 @@ import ProjectOverview from "../project-overview/project-overview"
 import Button from "../button/button"
 
 import ff7 from "../../images/ff7.jpg"
+import alc from "../../images/alc.jpg"
 import infused from "../../images/infused.jpg"
 import tims from "../../images/tims.jpg"
 import portfolio from "../../images/port.jpg"
@@ -22,20 +23,33 @@ class Work extends Component {
     return (
       <>
         <section className="work">
+          <Container className="container text-center">
+            <Column className="column">
+              <h2>Featured Work</h2>
+              <p>
+                Frontend development work in ReactJS, WordPress, VueJS and more.
+                Design work in Sketch / Photoshop.
+              </p>
+            </Column>
+          </Container>
           <Container className="container">
             <Column className="column">
-              <h3>Featured ReactJS Project</h3>
+              <h3>JavaScript Projects (ReactJS, VueJS)</h3>
+            </Column>
+          </Container>
+          {/* Row 1 */}
+          <Container className="container">
+            <Column className="column">
               <ProjectOverview
                 image={reactMovie}
                 altTag="React MovieDB Api"
                 heading="Movie Database API"
-                description="ReactJS, HTML5, CSS3, JavaScript, Axios, APIs, MaterialUI"
+                description="ReactJS, HTML5, CSS3, JavaScript, Axios, APIs"
                 linkText="View Project"
                 link="/react-movie-api"
               />
             </Column>
             <Column className="column">
-              <h3>Featured Client Project</h3>
               <ProjectOverview
                 image={mcAesthetics}
                 altTag="MC Aesthetics"
@@ -45,14 +59,53 @@ class Work extends Component {
                 link="/mc-aesthetics"
               />
             </Column>
+            <Column className="column">
+              <ProjectOverview
+                image={ff7}
+                altTag="FF7 Stats App"
+                heading="Final Fantasy Stats"
+                description="JavaScript and React-based web application"
+                linkText="View Project"
+                link="/ff7"
+              />
+            </Column>
+          </Container>
+          {/* Row 2 */}
+          <Container className="container two">
+            <Column className="column flex">
+              <ProjectOverview
+                image={alc}
+                altTag="ALC Interiors"
+                heading="ALC Interiors"
+                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
+                linkText="View Project"
+                link="/alc-interiors"
+              />
+            </Column>
+            <Column className="column flex">
+              <ProjectOverview
+                image={infused}
+                altTag="Infused Agency"
+                heading="Infused Agency"
+                description="Static site on VueJS, JavaScript and Gridsome"
+                linkText="View Project"
+                link="/infused"
+              />
+            </Column>
+            <Column className="column flex">
+              <ProjectOverview
+                image={portfolio}
+                altTag="Portfolio"
+                heading="Portfolio"
+                description="Static generated site on React, Gatsby and JavaScript"
+                linkText="View Project"
+                link="/portfolio"
+              />
+            </Column>
           </Container>
           <Container className="container">
             <Column className="column">
-              <h3>Client Projects</h3>
-              <p>
-                Utilizing ReactJS, Gatsby, HTML5, CSS3, JavaScript, WordPress
-                and more
-              </p>
+              <h3>Frontend &amp; WordPress Development Projects</h3>
             </Column>
           </Container>
           {/* Row 1 */}
@@ -98,46 +151,6 @@ class Work extends Component {
                 description="Custom WordPress build, HTML5, Sass and JavaScript"
                 linkText="View Project"
                 link="/cma"
-              />
-            </Column>
-          </Container>
-          <Container className="container">
-            <Column className="column">
-              <h3>Self-Learning Side Projects</h3>
-              <p>
-                Utilizing ReactJS, Gatsby, VueJS, HTML5, CSS3 and JavaScript
-              </p>
-            </Column>
-          </Container>
-          <Container className="container">
-            <Column className="column flex">
-              <ProjectOverview
-                image={ff7}
-                altTag="FF7 Stats App"
-                heading="Final Fantasy Stats"
-                description="JavaScript and React-based web application"
-                linkText="View Project"
-                link="/ff7"
-              />
-            </Column>
-            <Column className="column flex">
-              <ProjectOverview
-                image={infused}
-                altTag="Infused Agency"
-                heading="Infused Agency"
-                description="Static site on VueJS, JavaScript and Gridsome"
-                linkText="View Project"
-                link="/infused"
-              />
-            </Column>
-            <Column className="column flex">
-              <ProjectOverview
-                image={portfolio}
-                altTag="Portfolio"
-                heading="Portfolio"
-                description="Static generated site on React, Gatsby and JavaScript"
-                linkText="View Project"
-                link="/portfolio"
               />
             </Column>
           </Container>
