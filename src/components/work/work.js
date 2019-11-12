@@ -7,9 +7,7 @@ import Button from "../button/button"
 
 import ff7 from "../../images/ff7.jpg"
 import alc from "../../images/alc.jpg"
-import infused from "../../images/infused.jpg"
 import tims from "../../images/tims.jpg"
-import portfolio from "../../images/port.jpg"
 import cardon from "../../images/cardon.jpg"
 import hps from "../../images/hps.jpg"
 import cma from "../../images/cma.jpg"
@@ -59,16 +57,6 @@ class Work extends Component {
                 link="/mc-aesthetics"
               />
             </Column>
-            <Column className="column">
-              <ProjectOverview
-                image={ff7}
-                altTag="FF7 Stats App"
-                heading="Final Fantasy Stats"
-                description="JavaScript and React-based web application"
-                linkText="View Project"
-                link="/ff7"
-              />
-            </Column>
           </Container>
           {/* Row 2 */}
           <Container className="container two">
@@ -82,24 +70,14 @@ class Work extends Component {
                 link="/alc-interiors"
               />
             </Column>
-            <Column className="column flex">
+            <Column className="column">
               <ProjectOverview
-                image={infused}
-                altTag="Infused Agency"
-                heading="Infused Agency"
-                description="Static site on VueJS, JavaScript and Gridsome"
+                image={ff7}
+                altTag="FF7 Stats App"
+                heading="Final Fantasy Stats"
+                description="JavaScript and React-based web application"
                 linkText="View Project"
-                link="/infused"
-              />
-            </Column>
-            <Column className="column flex">
-              <ProjectOverview
-                image={portfolio}
-                altTag="Portfolio"
-                heading="Portfolio"
-                description="Static generated site on React, Gatsby and JavaScript"
-                linkText="View Project"
-                link="/portfolio"
+                link="/ff7"
               />
             </Column>
           </Container>
