@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `JD`,
-    description: `The website of JD.`,
+    description: `Front end developer from Niagara, St. Catharines. Specializing in React, Gatsby and WordPress. Click here to start a project.`,
     siteUrl: `https://jdfill.me`,
     author: `@gatsbyjs`,
   },
@@ -12,23 +12,24 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-        host: 'https://jdfill.me',
-        sitemap: 'https://jdfill.me/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
+        host: "https://jdfill.me",
+        sitemap: "https://jdfill.me/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ['Lato', 'Merriweather']
-        }
-      }
+          families: ["Lato", "Merriweather"],
+        },
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
-    'gatsby-plugin-sitemap',
-    'gatsby-plugin-robots-txt',
+    "gatsby-plugin-sitemap",
+    "gatsby-plugin-robots-txt",
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
