@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -22,3 +23,23 @@ const Home = () => (
 )
 
 export default Home
+
+// export const query = graphql`
+//   query {
+//     allFile(
+//       filter: { sourceInstanceName: { eq: "content" }, name: { eq: "home" } }
+//     ) {
+//       edges {
+//         node {
+//           childMarkdownRemark {
+//             frontmatter {
+//               heroTitle
+//               heroText
+//               myImage
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `

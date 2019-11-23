@@ -13,6 +13,6 @@ collections:
         name: "home"
         file: "content/home.md"
         fields:
-          - { label: Hero Title, name: hero-title, widget: string }
-          - { label: Hero Text, name: hero-text, widget: text }
-          - { label: My Image, name: my-image, widget: image }
+          - { label: Hero Title, name: heroTitle, widget: string }
+          - { label: Hero Text, name: heroText, widget: text }
+          - { label: My Image, name: myImage, widget: image }

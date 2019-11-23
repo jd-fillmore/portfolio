@@ -44,6 +44,21 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/assets`,
+        name: "images",
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/content`,
+      },
+    },
+    "gatsby-transformer-remark",
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-112521158-2",
