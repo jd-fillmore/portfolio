@@ -24,22 +24,18 @@ const Home = () => (
 
 export default Home
 
-// export const query = graphql`
-//   query {
-//     allFile(
-//       filter: { sourceInstanceName: { eq: "content" }, name: { eq: "home" } }
-//     ) {
-//       edges {
-//         node {
-//           childMarkdownRemark {
-//             frontmatter {
-//               heroTitle
-//               heroText
-//               myImage
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query {
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            heroText
+            heroTitle
+            myImage
+          }
+        }
+      }
+    }
+  }
+`
