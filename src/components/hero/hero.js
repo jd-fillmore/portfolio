@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 import Container from "../container/container"
 import Column from "../column/column"
-// import Image from "../../images/burlington-freelance-web-designer.jpg"
+import Image from "../../images/burlington-freelance-web-designer.jpg"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
@@ -16,14 +16,14 @@ import "../hero/hero.scss"
 
 class Hero extends Component {
   render() {
-    const data = this.props.data.allMarkdownRemark.edges[0].node.frontmatter
+    // const data = this.props.data.allMarkdownRemark.edges[0].node.frontmatter
 
     return (
       <section className="hero">
         <Container className="container">
           <Column className="column">
-            <h1>{data.heroText}</h1>
-            <p>{data.heroTitle}</p>
+            <h1>{this.props.title}</h1>
+            <p>{this.props.description}</p>
             <a
               href="https://github.com/jd-fillmore/"
               target="_blank"
@@ -59,10 +59,7 @@ class Hero extends Component {
           </Column>
           <Column className="column">
             <div className="second">
-              <img
-                src={data.myImage}
-                alt="Burlington Freelance Web Designer &amp; Developer"
-              />
+              <img src={Image} alt="JD Fillmore" />
             </div>
           </Column>
         </Container>
