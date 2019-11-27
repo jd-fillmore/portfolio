@@ -83,7 +83,7 @@ class Work extends Component {
           </Container>
           <Container className="container">
             <Column className="column">
-              <h3>Frontend &amp; WordPress Development Projects</h3>
+              <h3>Other Frontend Projects</h3>
             </Column>
           </Container>
           {/* Row 1 */}
