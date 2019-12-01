@@ -1,5 +1,8 @@
 import React, { Component } from "react"
 
+import AOS from "aos"
+import "aos/dist/aos.css"
+
 import Container from "../container/container"
 import Column from "../column/column"
 import ProjectOverview from "../project-overview/project-overview"
@@ -17,6 +20,9 @@ import reactMovie from "../../images/react-movie-api.jpg"
 import "../work/work.scss"
 
 class Work extends Component {
+  componentDidMount() {
+    AOS.init({})
+  }
   render() {
     return (
       <>
@@ -24,10 +30,6 @@ class Work extends Component {
           <Container className="container text-center">
             <Column className="column">
               <h2>Featured Work</h2>
-              <p>
-                Frontend development work in ReactJS, WordPress, VueJS and more.
-                Design work in Sketch / Photoshop.
-              </p>
             </Column>
           </Container>
           <Container className="container">

@@ -30,33 +30,88 @@ class Skills extends Component {
         </Container>
         <Container className="container">
           <Column className="column">
-            <p>WordPress</p>
+            <p>Flexbox</p>
           </Column>
-          <Column className="column">
-            <p>ReactJS</p>
-          </Column>
-          <Column className="column">
-            <p>VueJS</p>
-          </Column>
-          <Column className="column">
-            <p>Git</p>
-          </Column>
-        </Container>
-        <Container className="container">
           <Column className="column">
             <p>Bootstrap</p>
           </Column>
           <Column className="column">
-            <p>Sketch</p>
+            <p>React</p>
+          </Column>
+          <Column className="column">
+            <p>GatsbyJS</p>
+          </Column>
+        </Container>
+        <Container className="container">
+          <Column className="column">
+            <p>JAMStack</p>
+          </Column>
+          <Column className="column">
+            <p>Netlify</p>
+          </Column>
+          <Column className="column">
+            <p>Git</p>
+          </Column>
+          <Column className="column">
+            <p>NPM</p>
+          </Column>
+        </Container>
+        <Container className="container">
+          <Column className="column">
+            <p>Yarn</p>
+          </Column>
+          <Column className="column">
+            <p>Gulp</p>
+          </Column>
+          <Column className="column">
+            <p>Fetch API</p>
+          </Column>
+          <Column className="column">
+            <p>AJAX</p>
+          </Column>
+        </Container>
+        <Container className="container">
+          <Column className="column">
+            <p>Axios</p>
+          </Column>
+          <Column className="column">
+            <p>JSON</p>
           </Column>
           <Column className="column">
             <p>Photoshop</p>
           </Column>
           <Column className="column">
-            <p>Github</p>
+            <p>Sketch</p>
           </Column>
         </Container>
-       
+        <Container className="container">
+          <Column className="column">
+            <p>InVision</p>
+          </Column>
+          <Column className="column">
+            <p>Storybook</p>
+          </Column>
+          <Column className="column">
+            <p>WordPress</p>
+          </Column>
+          <Column className="column">
+            <p>Google Analytics</p>
+          </Column>
+        </Container>
+        <Container className="container">
+          <Column className="column">
+            <p>Google Tag Manager</p>
+          </Column>
+          <Column className="column">
+            <p>SEO</p>
+          </Column>
+          <Column className="column">
+            <p>Agile / Scrum</p>
+          </Column>
+          <Column className="column">
+            <p>Continuous Deployment</p>
+          </Column>
+        </Container>
       </div>
     )
   }

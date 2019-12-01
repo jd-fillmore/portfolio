@@ -10,12 +10,12 @@ import Work from "../components/work/work"
 const Home = () => (
   <Layout>
     <SEO
-      title="Front End Developer | React &amp; WordPress | St. Catharines, Niagara, ON"
-      description="JD Fillmore is a front end developer from St. Catharines, Niagara, ON. Specializing in WordPress and React. Click here to contact!"
+      title="JD Fillmore | Front End Developer, UI Designer"
+      description="JD Fillmore is a front end developer that has worked with national brands building out interactive, online experiences. Click here to view projects."
     />
     <Hero
       title="Hi! I'm JD. A frontend developer &amp; UI designer that creates interactive online experiences."
-      description="I've worked with amazing clients such as Tim Hortons, PC Financial and Blackberry."
+      description="I've worked with amazing national brands such as Tim Hortons, VelocityEHS and Thrillworks."
     />
     <Work />
     <Skills />

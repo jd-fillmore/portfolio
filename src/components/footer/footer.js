@@ -19,7 +19,10 @@ class Footer extends Component {
         <Container className="container">
           <Column className="column">
             <h4>Let's Connect</h4>
-            <p>Feel free to reach out to me with project ideas or just a friendly hello.</p>
+            <p>
+              Feel free to reach out to me with project ideas or just a friendly
+              hello.
+            </p>
             <a href="mailto:jd@jdfill.me">jd@jdfill.me</a>
             <p>
               © {new Date().getFullYear()} | Built with Gatsby + React + Flexbox
@@ -33,7 +36,7 @@ class Footer extends Component {
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
-              href="https://www.linkedin.com/in/jdfillmore/"
+              href="https://www.linkedin.com/in/jarryd-douglas/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="linkedin"
