@@ -12,7 +12,9 @@ const Nav = () => (
   <nav>
     <Container className="container">
       <Column className="column">
-        <Link to="/"><img src={logo} alt="JD Logo" /></Link>
+        <Link to="/">
+          <img src={logo} alt="JD Logo" />
+        </Link>
       </Column>
       <Column className="column right">
         <Link to="/">Work</Link>
