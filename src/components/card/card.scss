@@ -12,6 +12,9 @@
     transition: 0.2s;
     transform: translate3D(0, -5px, 0);
   }
+  @include bp-mobile {
+    margin-top: 20px;
+  }
   p {
     font-size: 14px;
   }
@@ -22,8 +25,9 @@
     margin-top: 0px;
     color: $secondary;
     margin-bottom: 5px;
-    transition: .2s;
-    &:focus, &:hover {
+    transition: 0.2s;
+    &:focus,
+    &:hover {
       color: $primary;
     }
   }

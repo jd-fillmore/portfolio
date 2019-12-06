@@ -32,13 +32,28 @@ class Work extends Component {
               <h2>Featured Work</h2>
             </Column>
           </Container>
-          <Container className="container">
-            <Column className="column">
-              <h3>JavaScript Projects (ReactJS, VueJS)</h3>
-            </Column>
-          </Container>
           {/* Row 1 */}
           <Container className="container">
+            <Column className="column">
+              <ProjectOverview
+                image={tims}
+                altTag="Tim's"
+                heading="Tim Hortons"
+                description="HTML5, CSS3, Sass, JavaScript"
+                linkText="View Project"
+                link="/tims"
+              />
+            </Column>
+            <Column className="column">
+              <ProjectOverview
+                image={cardon}
+                altTag="Cardon"
+                heading="Cardon Rehab"
+                description="Custom WordPress, HTML5, CSS3, Sass, JavaScript"
+                linkText="View Project"
+                link="/cardon"
+              />
+            </Column>
             <Column className="column">
               <ProjectOverview
                 image={reactMovie}
@@ -49,6 +64,10 @@ class Work extends Component {
                 link="/react-movie-api"
               />
             </Column>
+          </Container>
+
+          {/* Row 2 */}
+          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={mcAesthetics}
@@ -59,9 +78,6 @@ class Work extends Component {
                 link="/mc-aesthetics"
               />
             </Column>
-          </Container>
-          {/* Row 2 */}
-          <Container className="container two">
             <Column className="column flex">
               <ProjectOverview
                 image={alc}
@@ -77,48 +93,20 @@ class Work extends Component {
                 image={ff7}
                 altTag="FF7 Stats App"
                 heading="Final Fantasy Stats"
-                description="JavaScript and React-based web application"
+                description="JavaScript, HTML5, CSS3, Sass"
                 linkText="View Project"
                 link="/ff7"
               />
             </Column>
           </Container>
-          <Container className="container">
-            <Column className="column">
-              <h3>Other Frontend Projects</h3>
-            </Column>
-          </Container>
-          {/* Row 1 */}
-          <Container className="container">
-            <Column className="column">
-              <ProjectOverview
-                image={tims}
-                altTag="Tim's"
-                heading="Tim Hortons"
-                description="HTML5, CSS3, Sass and JavaScript"
-                linkText="View Project"
-                link="/tims"
-              />
-            </Column>
-            <Column className="column">
-              <ProjectOverview
-                image={cardon}
-                altTag="Cardon"
-                heading="Cardon Rehab"
-                description="Custom WordPress build, HTML5, Sass and JavaScript"
-                linkText="View Project"
-                link="/cardon"
-              />
-            </Column>
-          </Container>
-          {/* Row 2 */}
+          {/* Row 3 */}
           <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={hps}
                 altTag="Hammond"
                 heading="Hammond Power"
-                description="HTML5, CSS3, Sass and JavaScript on SiteCore"
+                description="HTML5, CSS3, Sass, JavaScript, SiteCore"
                 linkText="View Project"
                 link="/hps"
               />
@@ -128,11 +116,12 @@ class Work extends Component {
                 image={cma}
                 altTag="CMA"
                 heading="CMA Mortgages"
-                description="Custom WordPress build, HTML5, Sass and JavaScript"
+                description="Custom WordPress, HTML5, CSS3, Sass, JavaScript"
                 linkText="View Project"
                 link="/cma"
               />
             </Column>
+            <Column className="column">&nbsp;</Column>
           </Container>
           <Container className="container">
             <Column className="column work-row">

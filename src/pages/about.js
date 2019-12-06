@@ -9,7 +9,6 @@ import Column from "../components/column/column"
 import SEO from "../components/seo"
 import Section from "../components/section/section"
 import Skills from "../components/skills/skills"
-import Image from "../images/burlington-freelance-web-designer.jpg"
 
 import "../pages/about.scss"
 import Resume from "../resume.pdf"
@@ -28,36 +27,25 @@ class About extends Component {
         <Section className="about inner">
           <Container className="container">
             <Column className="column">
-              <img
-                data-aos="fade-right"
-                data-aos-duration="800"
-                src={Image}
-                alt="me"
-              />
-            </Column>
-            <Column className="column">
-              <h1
+              <h3
                 data-aos="fade-in"
                 data-aos-duration="800"
-                data-aos-delay="200"
+                data-aos-delay="400"
               >
-                About
-              </h1>
+                Career Profile
+              </h3>
               <p
                 data-aos="fade-in"
                 data-aos-duration="800"
                 data-aos-delay="400"
               >
-                Hi, I'm JD.
-              </p>
-              <p
-                data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="400"
-              >
-                Currently working as a frontend developer at VelocityEHS, I get
-                to work on a web application that's used by over 14 million
-                people worldwide.
+                Seasoned front end developer & UI designer with 7+ years
+                experience working on corporate & national brand websites & SaaS
+                products. Skilled in many of the major CMS platforms, JavaScript
+                / CSS frameworks & design software. Dedicated to my craft
+                through learning new technologies / techniques. Always enjoy my
+                commitment to making the web a more user-friendly environment
+                for everyone.
               </p>
               <a
                 href={Resume}
@@ -70,35 +58,42 @@ class About extends Component {
               >
                 Download resume.
               </a>
-              <p
+            </Column>
+
+            <Column className="column">
+              <h3
                 data-aos="fade-in"
                 data-aos-duration="800"
                 data-aos-delay="400"
               >
-                <strong>Latest accomplishments at my current position:</strong>
-              </p>
+                Career Accomplishments
+              </h3>
               <ul
                 data-aos="fade-in"
                 data-aos-duration="800"
                 data-aos-delay="400"
               >
                 <li>
-                  Developed a Storybook code component library for continued use
-                  on internal project, improving the development team's
-                  efficiency
+                  {" "}
+                  Helped numerous businesses generate millions in revenue due to
+                  better performant websites
                 </li>
                 <li>
-                  Develop interactive user-experience driven internal web
-                  application with HTML5, CSS3 (Sass, BEM), Flexbox, JavaScript
-                  and Reactjs
+                  Saved costs and increased efficiencies by building reusable
+                  code libraries for projects
                 </li>
                 <li>
-                  Team lead for AODA WCAG AA Compliance for internal project,
-                  implementing accessibility
+                  Developed various Tim Hortons projects, notably Every Cup
+                  Tells A Story and Tim’s Rewards
                 </li>
                 <li>
-                  Work closely UX designers and back-end developers team to
-                  ensure project success and to meet deadlines
+                  {" "}
+                  Work on VelocityEHS’ webapp, that is used by over 14 million
+                  people in the EHS industry
+                </li>
+                <li>
+                  Team lead for AODA AA compliant websites, giving the disabled
+                  a better internet experience
                 </li>
               </ul>
             </Column>

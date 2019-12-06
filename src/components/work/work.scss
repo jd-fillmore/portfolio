@@ -11,6 +11,9 @@
     padding-top: 20px;
     padding-bottom: 40px;
   }
+  .column {
+    display: flex;
+  }
   .flex {
     display: flex;
   }
@@ -20,6 +23,9 @@
   }
   .two {
     margin-top: 20px;
+    @include bp-mobile {
+      margin-top: 0px;
+    }
   }
   .work-row {
     display: flex;
