@@ -47,17 +47,6 @@ class About extends Component {
                 commitment to making the web a more user-friendly environment
                 for everyone.
               </p>
-              <a
-                href={Resume}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="resume"
-                data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="400"
-              >
-                Download resume.
-              </a>
             </Column>
 
             <Column className="column">
