@@ -2,6 +2,19 @@ import React, { Component } from "react"
 
 import Container from "../container/container"
 import Column from "../column/column"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faGithub,
+  faAccessibleIcon,
+  faHtml5,
+  faCss3,
+  faSass,
+  faBootstrap,
+  faReact,
+  faSketch,
+  faAdobe,
+  faJs,
+} from "@fortawesome/free-brands-svg-icons"
 
 import "../skills/skills.scss"
 
@@ -16,101 +29,51 @@ class Skills extends Component {
         </Container>
         <Container className="container">
           <Column className="column">
+            <FontAwesomeIcon aria icon={faHtml5} />
             <p>HTML5</p>
           </Column>
           <Column className="column">
-            <p>CSS3</p>
+            <FontAwesomeIcon aria icon={faCss3} />
+            <p>CSS3, Flexbox</p>
           </Column>
           <Column className="column">
+            <FontAwesomeIcon aria icon={faSass} />
             <p>Sass</p>
           </Column>
           <Column className="column">
+            <FontAwesomeIcon aria icon={faJs} />
             <p>JavaScript</p>
           </Column>
         </Container>
         <Container className="container">
           <Column className="column">
-            <p>Flexbox</p>
+            <FontAwesomeIcon aria icon={faGithub} />
+            <p>Git, Github</p>
           </Column>
           <Column className="column">
+            <FontAwesomeIcon aria icon={faBootstrap} />
             <p>Bootstrap</p>
           </Column>
           <Column className="column">
-            <p>React</p>
+            <FontAwesomeIcon aria icon={faReact} />
+            <p>React, GatsbyJS</p>
           </Column>
           <Column className="column">
-            <p>GatsbyJS</p>
-          </Column>
-        </Container>
-        <Container className="container">
-          <Column className="column">
-            <p>JAMStack</p>
-          </Column>
-          <Column className="column">
-            <p>Netlify</p>
-          </Column>
-          <Column className="column">
-            <p>Git</p>
-          </Column>
-          <Column className="column">
-            <p>NPM</p>
+            <FontAwesomeIcon aria icon={faAccessibleIcon} />
+            <p>Accessibility</p>
           </Column>
         </Container>
         <Container className="container">
           <Column className="column">
-            <p>Yarn</p>
-          </Column>
-          <Column className="column">
-            <p>Gulp</p>
-          </Column>
-          <Column className="column">
-            <p>Fetch API</p>
-          </Column>
-          <Column className="column">
-            <p>AJAX</p>
-          </Column>
-        </Container>
-        <Container className="container">
-          <Column className="column">
-            <p>Axios</p>
-          </Column>
-          <Column className="column">
-            <p>JSON</p>
-          </Column>
-          <Column className="column">
+            <FontAwesomeIcon aria icon={faAdobe} />
             <p>Photoshop</p>
           </Column>
           <Column className="column">
+            <FontAwesomeIcon aria icon={faSketch} />
             <p>Sketch</p>
           </Column>
-        </Container>
-        <Container className="container">
-          <Column className="column">
-            <p>InVision</p>
-          </Column>
-          <Column className="column">
-            <p>Storybook</p>
-          </Column>
-          <Column className="column">
-            <p>WordPress</p>
-          </Column>
-          <Column className="column">
-            <p>Google Analytics</p>
-          </Column>
-        </Container>
-        <Container className="container">
-          <Column className="column">
-            <p>Google Tag Manager</p>
-          </Column>
-          <Column className="column">
-            <p>SEO</p>
-          </Column>
-          <Column className="column">
-            <p>Agile / Scrum</p>
-          </Column>
-          <Column className="column">
-            <p>Continuous Deployment</p>
-          </Column>
+          <Column className="column">&nbsp;</Column>
+          <Column className="column">&nbsp;</Column>
         </Container>
       </div>
     )

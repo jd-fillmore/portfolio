@@ -40,12 +40,12 @@ class About extends Component {
                 data-aos-delay="400"
               >
                 Seasoned front end developer & UI designer with 7+ years
-                experience working on corporate & national brand websites & SaaS
-                products. Skilled in many of the major CMS platforms, JavaScript
-                / CSS frameworks & design software. Dedicated to my craft
-                through learning new technologies / techniques. Always enjoy my
-                commitment to making the web a more user-friendly environment
-                for everyone.
+                experience working on national brand & SaaS products. Skilled in
+                accessibility many of the major CMS platforms, JavaScript / CSS
+                frameworks & design software. Dedicated to my craft through
+                learning new technologies / techniques. Lead teams, projects and
+                internal initiatives, forward-thinking and create clean
+                documentation.
               </p>
             </Column>
 
@@ -72,7 +72,7 @@ class About extends Component {
                   code libraries for projects
                 </li>
                 <li>
-                  Developed various Tim Hortons projects, notably Every Cup
+                  Developed various Tim Hortons campaigns, notably Every Cup
                   Tells A Story and Tim’s Rewards
                 </li>
                 <li>

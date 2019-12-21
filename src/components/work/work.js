@@ -46,12 +46,12 @@ class Work extends Component {
             </Column>
             <Column className="column">
               <ProjectOverview
-                image={cardon}
-                altTag="Cardon"
-                heading="Cardon Rehab"
-                description="Custom WordPress, HTML5, CSS3, Sass, JavaScript"
+                image={mcAesthetics}
+                altTag="MC Aesthetics"
+                heading="MC Aesthetics"
+                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
                 linkText="View Project"
-                link="/cardon"
+                link="/mc-aesthetics"
               />
             </Column>
             <Column className="column">
@@ -59,7 +59,7 @@ class Work extends Component {
                 image={reactMovie}
                 altTag="React MovieDB Api"
                 heading="Movie Database API"
-                description="ReactJS, HTML5, CSS3, JavaScript, Axios, APIs"
+                description="ReactJS, HTML5, CSS3, JavaScript, Axios, REST API"
                 linkText="View Project"
                 link="/react-movie-api"
               />
@@ -70,16 +70,6 @@ class Work extends Component {
           <Container className="container two">
             <Column className="column">
               <ProjectOverview
-                image={mcAesthetics}
-                altTag="MC Aesthetics"
-                heading="MC Aesthetics"
-                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
-                linkText="View Project"
-                link="/mc-aesthetics"
-              />
-            </Column>
-            <Column className="column flex">
-              <ProjectOverview
                 image={alc}
                 altTag="ALC Interiors"
                 heading="ALC Interiors"
@@ -88,14 +78,24 @@ class Work extends Component {
                 link="/alc-interiors"
               />
             </Column>
-            <Column className="column">
+            <Column className="column flex">
               <ProjectOverview
                 image={ff7}
                 altTag="FF7 Stats App"
                 heading="Final Fantasy Stats"
-                description="JavaScript, HTML5, CSS3, Sass"
+                description="ReactJS, JavaScript, HTML5, CSS3, Sass, JSON"
                 linkText="View Project"
                 link="/ff7"
+              />
+            </Column>
+            <Column className="column">
+              <ProjectOverview
+                image={cardon}
+                altTag="Cardon"
+                heading="Cardon Rehab"
+                description="HTML5, CSS3, Sass, JavaScript"
+                linkText="View Project"
+                link="/cardon"
               />
             </Column>
           </Container>
@@ -106,7 +106,7 @@ class Work extends Component {
                 image={hps}
                 altTag="Hammond"
                 heading="Hammond Power"
-                description="HTML5, CSS3, Sass, JavaScript, SiteCore"
+                description="HTML5, CSS3, Sass, JavaScript"
                 linkText="View Project"
                 link="/hps"
               />
@@ -116,7 +116,7 @@ class Work extends Component {
                 image={cma}
                 altTag="CMA"
                 heading="CMA Mortgages"
-                description="Custom WordPress, HTML5, CSS3, Sass, JavaScript"
+                description="HTML5, CSS3, Sass, JavaScript"
                 linkText="View Project"
                 link="/cma"
               />
