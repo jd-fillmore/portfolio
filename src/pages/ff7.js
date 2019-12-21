@@ -25,7 +25,7 @@ const FF7 = () => (
           projectTitle="Final Fantasy 7 Character Stats"
           projectLink="https://ff7.netlify.com"
           projectDescription="I wanted to learn ReactJS. So, I decided to build a side project. Practicing React, JavaScript ES6 filtering and arrays as well. Purpose - as you click on a character, it filters in their information on the right (desktop) and on the bottom (mobile)."
-          techUsed="HTML5, CSS3, Sass, JavaScript, React, NPM, Node, Flexbox"
+          techUsed="HTML5, CSS3, Sass, JavaScript, React, NPM, Flexbox"
           splitImage={ff7SplitImage}
           altTagSplit="ff7 split image"
           mobileImage={ff7MobileImage}

@@ -25,7 +25,7 @@ const Tims = () => (
           projectTitle="Every Cup Tells A Story"
           projectLink="https://www.timhortons.com/ca/en/promos/every-cup-tells-a-story.php"
           projectDescription="While employed by Thrillworks, Tim Hortons requested for us to build them a micro-site showcasing true stories from their customers across Canada."
-          techUsed="HTML5, CSS3, Sass, NPM, Node, Foundation, Photoshop, Sketch"
+          techUsed="HTML5, CSS3, Sass, NPM, Foundation, Photoshop, Sketch"
           splitImage={timsSplitImage}
           altTagSplit="tims every cup split image"
           mobileImage={timsMobileImage}

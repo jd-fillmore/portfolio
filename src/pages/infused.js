@@ -25,7 +25,7 @@ const Infused = () => (
           projectTitle="Infused Agency"
           projectLink="https://infused.agency"
           projectDescription="I wanted to learn VueJS, and Gridsome (a Vue-based static site generator). I also wanted to see if I could rank a side website for a competitive SEO term. So, I decided to build it. I also blog frequently about the business side of SEO, website design and website development."
-          techUsed="Static generated site on VueJS, JavaScript, Gridsome, HTML5, CSS3, Bootstrap 4, NPM, Node"
+          techUsed="Static generated site on VueJS, JavaScript, Gridsome, HTML5, CSS3, Bootstrap 4, NPM"
           splitImage={infusedSplitImage}
           altTagSplit="infused split image"
           mobileImage={infusedMobileImage}
