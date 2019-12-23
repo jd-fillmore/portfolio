@@ -14,18 +14,22 @@ import {
 
 class Footer extends Component {
   render() {
+    const footerContent = {
+      title: `Let's Connect`,
+      description:
+        "Feel free to reach out to me with project ideas or just a friendly hello.",
+      email: "jd@jdfill.me",
+      bottomDescription: "| Built with Gatsby + React + Flexbox",
+    }
     return (
       <footer>
         <Container className="container">
           <Column className="column">
-            <h4>Let's Connect</h4>
+            <h4>{footerContent.title}</h4>
+            <p>{footerContent.description}</p>
+            <a href="mailto:jd@jdfill.me">{footerContent.email}</a>
             <p>
-              Feel free to reach out to me with project ideas or just a friendly
-              hello.
-            </p>
-            <a href="mailto:jd@jdfill.me">jd@jdfill.me</a>
-            <p>
-              © {new Date().getFullYear()} | Built with Gatsby + React + Flexbox
+              © {new Date().getFullYear()} {footerContent.bottomDescription}
             </p>
             <a
               href="https://github.com/jd-fillmore/"

@@ -8,6 +8,12 @@ import "../variables.scss"
 import "../base.scss"
 import "../nav/nav.scss"
 
+const navItems = {
+  linkOne: "Work",
+  linkTwo: "About",
+  linkThree: "Contact",
+}
+
 const Nav = () => (
   <nav>
     <Container className="container">
@@ -17,9 +23,9 @@ const Nav = () => (
         </Link>
       </Column>
       <Column className="column right">
-        <Link to="/">Work</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/">{navItems.linkOne}</Link>
+        <Link to="/about">{navItems.linkTwo}</Link>
+        <Link to="/contact">{navItems.linkThree}</Link>
       </Column>
     </Container>
   </nav>

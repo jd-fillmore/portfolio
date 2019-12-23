@@ -11,13 +11,33 @@ import Section from "../components/section/section"
 import Skills from "../components/skills/skills"
 
 import "../pages/about.scss"
-import Resume from "../resume.pdf"
 
 class About extends Component {
   componentDidMount() {
     AOS.init({})
   }
   render() {
+    const aboutContent = {
+      titleOne: "Career Profile",
+      textOne: `Seasoned front end developer & UI designer with 7+ years
+      experience working on national brand & SaaS products. Skilled in
+      WCAG / AODA accessibility, JavaScript / CSS
+      frameworks & design software. Dedicated to my craft through
+      learning new technologies / techniques. Lead teams, projects and
+      internal initiatives, forward-thinking and create clean
+      documentation.`,
+      titleTwo: "Career Accomplishments",
+      bulletOne:
+        "Helped numerous businesses generate millions in revenue due to better performant websites",
+      bulletTwo:
+        "Saved costs and increased efficiencies by building reusable code libraries for projects",
+      bulletThree:
+        "Developed various Tim Hortons campaigns, notably Every Cup Tells A Story and Tim’s Rewards",
+      bulletFour:
+        "Work on VelocityEHS’ webapp, that is used by over 14 million people in the EHS industry",
+      bulletFive:
+        "Team lead for AODA AA compliant websites, giving the disabled a better internet experience",
+    }
     return (
       <Layout>
         <SEO
@@ -32,20 +52,14 @@ class About extends Component {
                 data-aos-duration="800"
                 data-aos-delay="400"
               >
-                Career Profile
+                {aboutContent.titleOne}
               </h3>
               <p
                 data-aos="fade-in"
                 data-aos-duration="800"
                 data-aos-delay="400"
               >
-                Seasoned front end developer & UI designer with 7+ years
-                experience working on national brand & SaaS products. Skilled in
-                accessibility many of the major CMS platforms, JavaScript / CSS
-                frameworks & design software. Dedicated to my craft through
-                learning new technologies / techniques. Lead teams, projects and
-                internal initiatives, forward-thinking and create clean
-                documentation.
+                {aboutContent.textOne}
               </p>
             </Column>
 
@@ -55,35 +69,18 @@ class About extends Component {
                 data-aos-duration="800"
                 data-aos-delay="400"
               >
-                Career Accomplishments
+                {aboutContent.titleTwo}
               </h3>
               <ul
                 data-aos="fade-in"
                 data-aos-duration="800"
                 data-aos-delay="400"
               >
-                <li>
-                  {" "}
-                  Helped numerous businesses generate millions in revenue due to
-                  better performant websites
-                </li>
-                <li>
-                  Saved costs and increased efficiencies by building reusable
-                  code libraries for projects
-                </li>
-                <li>
-                  Developed various Tim Hortons campaigns, notably Every Cup
-                  Tells A Story and Tim’s Rewards
-                </li>
-                <li>
-                  {" "}
-                  Work on VelocityEHS’ webapp, that is used by over 14 million
-                  people in the EHS industry
-                </li>
-                <li>
-                  Team lead for AODA AA compliant websites, giving the disabled
-                  a better internet experience
-                </li>
+                <li>{aboutContent.bulletOne}</li>
+                <li>{aboutContent.bulletTwo}</li>
+                <li>{aboutContent.bulletThree}</li>
+                <li>{aboutContent.bulletFour}</li>
+                <li>{aboutContent.bulletFive}</li>
               </ul>
             </Column>
           </Container>
