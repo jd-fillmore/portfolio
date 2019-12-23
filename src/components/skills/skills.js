@@ -20,57 +20,70 @@ import "../skills/skills.scss"
 
 class Skills extends Component {
   render() {
+    const skills = {
+      title: "Technical Skills",
+      html: "HTML5",
+      css: "CSS3 / Flexbox",
+      sass: "Sass",
+      js: "JavaScript",
+      git: "Git / Github",
+      bs: "Bootstrap",
+      react: "React / GatsbyJS",
+      acc: "Accessibility",
+      ps: "Photoshop",
+      sketch: "Sketch",
+    }
     return (
       <div className="skills">
         <Container className="container">
           <Column className="column">
-            <h2>Technical Skills</h2>
+            <h2>{skills.title}</h2>
           </Column>
         </Container>
         <Container className="container">
           <Column className="column">
             <FontAwesomeIcon aria icon={faHtml5} />
-            <p>HTML5</p>
+            <p>{skills.html}</p>
           </Column>
           <Column className="column">
             <FontAwesomeIcon aria icon={faCss3} />
-            <p>CSS3, Flexbox</p>
+            <p>{skills.css}</p>
           </Column>
           <Column className="column">
             <FontAwesomeIcon aria icon={faSass} />
-            <p>Sass</p>
+            <p>{skills.sass}</p>
           </Column>
           <Column className="column">
             <FontAwesomeIcon aria icon={faJs} />
-            <p>JavaScript</p>
+            <p>{skills.js}</p>
           </Column>
         </Container>
         <Container className="container">
           <Column className="column">
             <FontAwesomeIcon aria icon={faGithub} />
-            <p>Git, Github</p>
+            <p>{skills.git}</p>
           </Column>
           <Column className="column">
             <FontAwesomeIcon aria icon={faBootstrap} />
-            <p>Bootstrap</p>
+            <p>{skills.bs}</p>
           </Column>
           <Column className="column">
             <FontAwesomeIcon aria icon={faReact} />
-            <p>React, GatsbyJS</p>
+            <p>{skills.react}</p>
           </Column>
           <Column className="column">
             <FontAwesomeIcon aria icon={faAccessibleIcon} />
-            <p>Accessibility</p>
+            <p>{skills.acc}</p>
           </Column>
         </Container>
         <Container className="container">
           <Column className="column">
             <FontAwesomeIcon aria icon={faAdobe} />
-            <p>Photoshop</p>
+            <p>{skills.ps}</p>
           </Column>
           <Column className="column">
             <FontAwesomeIcon aria icon={faSketch} />
-            <p>Sketch</p>
+            <p>{skills.sketch}</p>
           </Column>
           <Column className="column">&nbsp;</Column>
           <Column className="column">&nbsp;</Column>
