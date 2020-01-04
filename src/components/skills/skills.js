@@ -23,7 +23,7 @@ class Skills extends Component {
     const skills = {
       title: "Technical Skills",
       html: "HTML5",
-      css: "CSS3 / Flexbox",
+      css: "CSS3",
       sass: "Sass",
       js: "JavaScript",
       git: "Git / Github",

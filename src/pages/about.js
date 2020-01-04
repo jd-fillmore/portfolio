@@ -47,35 +47,13 @@ class About extends Component {
         <Section className="about inner">
           <Container className="container">
             <Column className="column">
-              <h3
-                data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="400"
-              >
-                {aboutContent.titleOne}
-              </h3>
-              <p
-                data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="400"
-              >
-                {aboutContent.textOne}
-              </p>
+              <h3>{aboutContent.titleOne}</h3>
+              <p>{aboutContent.textOne}</p>
             </Column>
 
             <Column className="column">
-              <h3
-                data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="400"
-              >
-                {aboutContent.titleTwo}
-              </h3>
-              <ul
-                data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="400"
-              >
+              <h3>{aboutContent.titleTwo}</h3>
+              <ul>
                 <li>{aboutContent.bulletOne}</li>
                 <li>{aboutContent.bulletTwo}</li>
                 <li>{aboutContent.bulletThree}</li>

@@ -19,7 +19,7 @@ class Footer extends Component {
       description:
         "Feel free to reach out to me with project ideas or just a friendly hello.",
       email: "jd@jdfill.me",
-      bottomDescription: "| Built with Gatsby + React + Flexbox",
+      bottomDescription: "| Built with Gatsby + React",
     }
     return (
       <footer>

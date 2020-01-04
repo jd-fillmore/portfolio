@@ -16,6 +16,7 @@ import hps from "../../images/hps.jpg"
 import cma from "../../images/cma.jpg"
 import mcAesthetics from "../../images/mc.jpg"
 import reactMovie from "../../images/react-movie-api.jpg"
+import cassabella from "../../images/cassabella.jpg"
 
 import "../work/work.scss"
 
@@ -46,6 +47,16 @@ class Work extends Component {
             </Column>
             <Column className="column">
               <ProjectOverview
+                image={cassabella}
+                altTag="Cass-A-Bella Construction"
+                heading="Cass-A-Bella Construction"
+                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
+                linkText="View Project"
+                link="/cassabella-construction"
+              />
+            </Column>
+            <Column className="column">
+              <ProjectOverview
                 image={mcAesthetics}
                 altTag="MC Aesthetics"
                 heading="MC Aesthetics"
@@ -54,6 +65,10 @@ class Work extends Component {
                 link="/mc-aesthetics"
               />
             </Column>
+          </Container>
+
+          {/* Row 2 */}
+          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={reactMovie}
@@ -64,11 +79,7 @@ class Work extends Component {
                 link="/react-movie-api"
               />
             </Column>
-          </Container>
-
-          {/* Row 2 */}
-          <Container className="container two">
-            <Column className="column">
+            <Column className="column flex">
               <ProjectOverview
                 image={alc}
                 altTag="ALC Interiors"
@@ -78,7 +89,7 @@ class Work extends Component {
                 link="/alc-interiors"
               />
             </Column>
-            <Column className="column flex">
+            <Column className="column">
               <ProjectOverview
                 image={ff7}
                 altTag="FF7 Stats App"
@@ -88,6 +99,9 @@ class Work extends Component {
                 link="/ff7"
               />
             </Column>
+          </Container>
+          {/* Row 3 */}
+          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={cardon}
@@ -98,9 +112,6 @@ class Work extends Component {
                 link="/cardon"
               />
             </Column>
-          </Container>
-          {/* Row 3 */}
-          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={hps}
@@ -121,7 +132,6 @@ class Work extends Component {
                 link="/cma"
               />
             </Column>
-            <Column className="column">&nbsp;</Column>
           </Container>
           <Container className="container">
             <Column className="column work-row">

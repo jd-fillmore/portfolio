@@ -26,36 +26,12 @@ class Contact extends Component {
         <Section className="about inner">
           <Container className="container">
             <Column className="column">
-              <img
-                data-aos="fade-right"
-                data-aos-duration="800"
-                src={Image}
-                alt="Me"
-              />
+              <img src={Image} alt="Me" />
             </Column>
             <Column className="column">
-              <h1
-                data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                Contact
-              </h1>
-              <p
-                data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="400"
-              >
-                Feel free to reach out to discuss a project, or say hello.
-              </p>
-              <a
-                data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="400"
-                href="mailto:jd@jdfill.me"
-              >
-                jd@jdfill.me
-              </a>
+              <h1>Contact</h1>
+              <p>Feel free to reach out to discuss a project, or say hello.</p>
+              <a href="mailto:jd@jdfill.me">jd@jdfill.me</a>
             </Column>
           </Container>
         </Section>

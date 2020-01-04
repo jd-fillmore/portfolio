@@ -29,60 +29,45 @@ class Hero extends Component {
       <section className="hero">
         <Container className="container">
           <Column className="column">
-            <h1 data-aos="fade-up" data-aos-duration="800">
-              {this.props.title}
-            </h1>
-            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-              {this.props.description}
-            </p>
-            <div
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="400"
+            <h1>{this.props.title}</h1>
+            <p>{this.props.description}</p>
+
+            <a
+              href="https://github.com/jd-fillmore/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="github"
             >
-              <a
-                href="https://github.com/jd-fillmore/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="github"
-              >
-                <FontAwesomeIcon aria icon={faGithub} />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/jarryd-douglas/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="linkedin"
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
-              <a
-                href="https://www.behance.net/jdfillmore"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="behance"
-              >
-                <FontAwesomeIcon icon={faBehance} />
-              </a>
-              <a
-                href="mailto:jd@jdfill.me"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="email"
-              >
-                <FontAwesomeIcon icon={faEnvelope} />
-              </a>
-            </div>
+              <FontAwesomeIcon aria icon={faGithub} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jarryd-douglas/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="linkedin"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a
+              href="https://www.behance.net/jdfillmore"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="behance"
+            >
+              <FontAwesomeIcon icon={faBehance} />
+            </a>
+            <a
+              href="mailto:jd@jdfill.me"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="email"
+            >
+              <FontAwesomeIcon icon={faEnvelope} />
+            </a>
           </Column>
           <Column className="column">
             <div className="second">
-              <img
-                src={Image}
-                alt="JD Fillmore"
-                data-aos="fade-right"
-                data-aos-duration="800"
-                data-aos-delay="600"
-              />
+              <img src={Image} alt="JD Fillmore" />
             </div>
           </Column>
         </Container>
