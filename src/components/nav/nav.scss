@@ -7,6 +7,9 @@ nav {
   padding-top: 20px;
   padding-bottom: 20px;
   background: rgba($white, 0.9);
+  @include bp-tablet-sm {
+    padding-bottom: 20px;
+  }
   @media (min-width: 1025px) {
     position: fixed;
     right: 0;
@@ -22,12 +25,14 @@ nav {
     a {
       text-decoration: none;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 13px;
       font-weight: bold;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
       color: $primary;
       margin-left: 40px;
-      &:hover, &:focus {
+      padding: 0px 15px 0px 15px;
+      &:hover,
+      &:focus {
         color: $secondary;
       }
       @include bp-mobile {

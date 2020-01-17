@@ -6,27 +6,40 @@
 // Hero
 
 .hero {
-  padding-top: 180px;
-  padding-bottom: 150px;
+  padding-top: 200px;
+  padding-bottom: 140px;
+  background-image: linear-gradient(90deg, #412caf, #0671bc);
   @include bp-tablet {
-    padding-top: 0px;
+    padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .first {
+    padding-left: 200px;
+    @include bp-tablet-sm {
+      padding-left: inherit;
+    }
   }
   h1 {
     font-size: 40px;
     line-height: 1.4;
     margin-top: 0px;
+    color: $white;
     @include bp-tablet {
       font-size: 28px;
       margin-top: 20px;
     }
   }
+  p,
+  svg {
+    color: $grey;
+  }
   svg {
     font-size: 25px;
     margin-right: 20px;
-    color: $primary;
-    transition: .2s;
-    &:focus, &:hover {
+
+    transition: 0.2s;
+    &:focus,
+    &:hover {
       color: $secondary;
     }
   }
@@ -36,14 +49,6 @@
     @include bp-mobile {
       display: block;
       justify-content: initial;
-    }
-  }
-  img {
-    width: 350px;
-    @include bp-mobile {
-      margin: 0 auto;
-      display: block;
-      margin-top: 30px;
     }
   }
 }

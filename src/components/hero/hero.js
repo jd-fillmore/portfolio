@@ -5,7 +5,6 @@ import "aos/dist/aos.css"
 
 import Container from "../container/container"
 import Column from "../column/column"
-import Image from "../../images/burlington-freelance-web-designer.jpg"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
@@ -23,15 +22,12 @@ class Hero extends Component {
   }
 
   render() {
-    // const data = this.props.data.allMarkdownRemark.edges[0].node.frontmatter
-
     return (
       <section className="hero">
         <Container className="container">
-          <Column className="column">
+          <Column className="column first">
             <h1>{this.props.title}</h1>
             <p>{this.props.description}</p>
-
             <a
               href="https://github.com/jd-fillmore/"
               target="_blank"
@@ -66,9 +62,7 @@ class Hero extends Component {
             </a>
           </Column>
           <Column className="column">
-            <div className="second">
-              <img src={Image} alt="JD Fillmore" />
-            </div>
+            <div className="second">&nbsp;</div>
           </Column>
         </Container>
       </section>
