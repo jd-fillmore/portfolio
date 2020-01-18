@@ -3,6 +3,7 @@ import React from "react"
 import Container from "../container/container"
 import Column from "../column/column"
 import logo from "../../images/logo.png"
+import Resume from "../../JD-Fillmore.pdf"
 
 import "../variables.scss"
 import "../base.scss"
@@ -10,7 +11,7 @@ import "../nav/nav.scss"
 
 const navItems = {
   linkOne: "Work",
-  linkTwo: "About",
+  linkTwo: "Resume",
   linkThree: "Contact",
 }
 
@@ -24,7 +25,9 @@ const Nav = () => (
       </Column>
       <Column className="column right">
         <Link to="/">{navItems.linkOne}</Link>
-        <Link to="/about">{navItems.linkTwo}</Link>
+        <a href={Resume} target="_blank" rel="noopener noreferrer">
+          {navItems.linkTwo}
+        </a>
         <Link to="/contact">{navItems.linkThree}</Link>
       </Column>
     </Container>
