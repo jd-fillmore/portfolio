@@ -36,6 +36,7 @@ nav {
         color: $secondary;
       }
       @include bp-mobile {
+        padding: 0px;
         margin-left: 20px;
       }
     }
