@@ -10,12 +10,12 @@ import Work from "../components/work/work"
 const Home = () => (
   <Layout>
     <SEO
-      title="JD Fillmore | Front End Developer, UI Designer"
+      title="JD Fillmore | Front-End Developer, UI Designer"
       description="JD Fillmore is a front end developer that has worked with national brands building out interactive, online experiences. Click here to view projects."
     />
     <Hero
-      title="Frontend developer who enjoys working with React."
-      description="Hi, I'm JD. I've worked with amazing national brands such as Tim Hortons, VelocityEHS and Thrillworks."
+      title="Front-End Developer &amp; UI Designer who enjoys working with React."
+      description="Hi, I'm JD. I've worked with amazing international brands such as Tim Hortons, VelocityEHS and Thrillworks."
     />
     <Work />
     <Skills />

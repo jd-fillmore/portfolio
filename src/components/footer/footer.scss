@@ -4,7 +4,7 @@
 // Footer
 
 footer {
-  background: $heading;
+  background-image: linear-gradient(90deg, #412caf, #0671bc);
   padding-top: 60px;
   padding-bottom: 80px;
   @include bp-tablet {
@@ -14,7 +14,9 @@ footer {
   .column {
     text-align: center;
   }
-  h4, p, a {
+  h4,
+  p,
+  a {
     color: $white;
   }
   svg {
