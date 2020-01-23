@@ -24,7 +24,7 @@ const Portfolio = () => (
           altTag="MC Aesthetics intro image"
           projectTitle="MC Aesthetics"
           projectLink="https://mcaesthetics.ca"
-          projectDescription="MC Aeshetics came to me with a website in mind. I decided to build out the website with newer technologies, to expand my skillset. Those technologies were ReactJS, Gatsby and Netlify."
+          projectDescription="MC Aeshetics came to me with a website in mind. I decided to build out the website with newer technologies, to expand my skillset. My role here was to manage the client and their expectations, UI design, front end development and on-page SEO."
           techUsed="Static generated site on ReactJS, JavaScript, Gatsby, HTML5, CSS3, Bootstrap 4, NPM"
           splitImage={mcSplitImage}
           altTagSplit="MC Aesthetics split image"

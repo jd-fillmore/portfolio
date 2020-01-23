@@ -24,7 +24,7 @@ const CMA = () => (
           altTag="cma intro image"
           projectTitle="Canadian Mortgage Authority"
           projectLink="https://canadianmortgageauthority.com"
-          projectDescription="Canadian Mortgage Authority contacted me for a website, as their then-current one was not optimized, lacked responsiveness and wasn't performing well sales-wise. With speed, performance and UX in mind, I designed and build a website for him that performs much better than the last."
+          projectDescription="Canadian Mortgage Authority contacted me for a website, as their then-current one was not optimized, lacked responsiveness and wasn't performing well sales-wise. With speed, performance and UX in mind, I designed and built a website for him that performs much better than the last. My role here was to manage the client and their expectations, UI design, front end development and on-page SEO."
           techUsed="HTML5, CSS3, Sass, JavaScript, NPM, Bootstrap, Photoshop, Sketch"
           splitImage={cmaSplitImage}
           altTagSplit="cma split image"

@@ -118,11 +118,10 @@ class Work extends Component {
           <Container className="container">
             <Column className="column">
               <h2>Side Projects</h2>
-              <p>For the sake of learning.</p>
             </Column>
           </Container>
           {/* Row 2 */}
-          <Container className="container two">
+          <Container className="container">
             <Column className="column">
               <ProjectOverview
                 image={reactMovie}
