@@ -29,7 +29,7 @@ const Portfolio = () => (
             </p>,
           ]}
           projectLink="https://alcint.netlify.com"
-          projectDescription="ALC Interiors came to me with a website in mind. I decided to build out the website with newer technologies, to expand my skillset. Those technologies were ReactJS, Gatsby and Netlify."
+          projectDescription="ALC Interiors came to me with a website in mind. I decided to build out the website with newer technologies, to expand my skillset. Those technologies were ReactJS, Gatsby and Netlify. My role here was to manage the client and their expectations, UI design, front end development and on-page SEO."
           techUsed="Static generated site on ReactJS, JavaScript, Gatsby, HTML5, CSS3, Bootstrap 4, NPM."
           splitImage={alcSplitImage}
           altTagSplit="ALC Interiors split image"

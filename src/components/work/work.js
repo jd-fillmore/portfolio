@@ -30,7 +30,7 @@ class Work extends Component {
         <section className="work">
           <Container className="container text-center">
             <Column className="column">
-              <h2>Featured Work</h2>
+              <h2>Featured Professional Work</h2>
             </Column>
           </Container>
           {/* Row 1 */}
@@ -71,12 +71,12 @@ class Work extends Component {
           <Container className="container two">
             <Column className="column">
               <ProjectOverview
-                image={reactMovie}
-                altTag="React MovieDB Api"
-                heading="Movie Database API"
-                description="ReactJS, HTML5, CSS3, JavaScript, Axios, REST API"
+                image={cardon}
+                altTag="Cardon"
+                heading="Cardon Rehab"
+                description="HTML5, CSS3, Sass, JavaScript"
                 linkText="View Project"
-                link="/react-movie-api"
+                link="/cardon"
               />
             </Column>
             <Column className="column flex">
@@ -91,27 +91,17 @@ class Work extends Component {
             </Column>
             <Column className="column">
               <ProjectOverview
-                image={ff7}
-                altTag="FF7 Stats App"
-                heading="Final Fantasy Stats"
-                description="ReactJS, JavaScript, HTML5, CSS3, Sass, JSON"
+                image={cma}
+                altTag="CMA"
+                heading="CMA Mortgages"
+                description="HTML5, CSS3, Sass, JavaScript"
                 linkText="View Project"
-                link="/ff7"
+                link="/cma"
               />
             </Column>
           </Container>
           {/* Row 3 */}
           <Container className="container two">
-            <Column className="column">
-              <ProjectOverview
-                image={cardon}
-                altTag="Cardon"
-                heading="Cardon Rehab"
-                description="HTML5, CSS3, Sass, JavaScript"
-                linkText="View Project"
-                link="/cardon"
-              />
-            </Column>
             <Column className="column">
               <ProjectOverview
                 image={hps}
@@ -122,16 +112,38 @@ class Work extends Component {
                 link="/hps"
               />
             </Column>
+            <Column className="column">&nbsp;</Column>
+            <Column className="column">&nbsp;</Column>
+          </Container>
+          <Container className="container">
+            <Column className="column">
+              <h2>Side Projects</h2>
+              <p>For the sake of learning.</p>
+            </Column>
+          </Container>
+          {/* Row 2 */}
+          <Container className="container two">
             <Column className="column">
               <ProjectOverview
-                image={cma}
-                altTag="CMA"
-                heading="CMA Mortgages"
-                description="HTML5, CSS3, Sass, JavaScript"
+                image={reactMovie}
+                altTag="React MovieDB Api"
+                heading="Movie Database API"
+                description="ReactJS, HTML5, CSS3, JavaScript, Axios, REST API"
                 linkText="View Project"
-                link="/cma"
+                link="/react-movie-api"
               />
             </Column>
+            <Column className="column">
+              <ProjectOverview
+                image={ff7}
+                altTag="FF7 Stats App"
+                heading="Final Fantasy Stats"
+                description="ReactJS, JavaScript, HTML5, CSS3, Sass, JSON"
+                linkText="View Project"
+                link="/ff7"
+              />
+            </Column>
+            <Column className="column">&nbsp;</Column>
           </Container>
           <Container className="container">
             <Column className="column work-row">

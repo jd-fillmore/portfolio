@@ -22,6 +22,11 @@
       color: $secondary;
       margin-top: 0px;
     }
+    img {
+      &.speed {
+        width: inherit;
+      }
+    }
   }
   .back {
     .column {

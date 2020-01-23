@@ -46,6 +46,12 @@ class ProjectDetailed extends Component {
             <Column className="column">
               <h4>Technologies Used</h4>
               <p>{this.props.techUsed}</p>
+              <h4>Google PageSpeed Score</h4>
+              <img
+                class="speed"
+                src={this.props.speedScore}
+                alt={this.props.altSpeedScore}
+              />
             </Column>
           </Container>
           {/* Split Image */}

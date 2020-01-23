@@ -61,9 +61,6 @@ class Hero extends Component {
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </Column>
-          <Column className="column">
-            <div className="second">&nbsp;</div>
-          </Column>
         </Container>
       </section>
     )
