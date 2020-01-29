@@ -34,7 +34,7 @@ class Hero extends Component {
               rel="noopener noreferrer"
               aria-label="github"
             >
-              <FontAwesomeIcon aria icon={faGithub} />
+              <FontAwesomeIcon aria icon={faGithub} width="25" />
             </a>
             <a
               href="https://www.linkedin.com/in/jarryd-douglas/"
@@ -42,7 +42,7 @@ class Hero extends Component {
               rel="noopener noreferrer"
               aria-label="linkedin"
             >
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedin} width="25" />
             </a>
             <a
               href="https://www.behance.net/jdfillmore"
@@ -50,7 +50,7 @@ class Hero extends Component {
               rel="noopener noreferrer"
               aria-label="behance"
             >
-              <FontAwesomeIcon icon={faBehance} />
+              <FontAwesomeIcon icon={faBehance} width="25" />
             </a>
             <a
               href="mailto:jd@jdfill.me"
@@ -58,7 +58,7 @@ class Hero extends Component {
               rel="noopener noreferrer"
               aria-label="email"
             >
-              <FontAwesomeIcon icon={faEnvelope} />
+              <FontAwesomeIcon icon={faEnvelope} width="25" />
             </a>
           </Column>
         </Container>

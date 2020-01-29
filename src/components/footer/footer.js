@@ -37,7 +37,7 @@ class Footer extends Component {
               rel="noopener noreferrer"
               aria-label="github"
             >
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} width="20" />
             </a>
             <a
               href="https://www.linkedin.com/in/jarryd-douglas/"
@@ -45,7 +45,7 @@ class Footer extends Component {
               rel="noopener noreferrer"
               aria-label="linkedin"
             >
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedin} width="20" />
             </a>
             <a
               href="https://www.behance.net/jdfillmore"
@@ -53,7 +53,7 @@ class Footer extends Component {
               rel="noopener noreferrer"
               aria-label="behance"
             >
-              <FontAwesomeIcon icon={faBehance} />
+              <FontAwesomeIcon icon={faBehance} width="20" />
             </a>
             <a
               href="mailto:jd@jdfill.me"
@@ -61,7 +61,7 @@ class Footer extends Component {
               rel="noopener noreferrer"
               aria-label="email"
             >
-              <FontAwesomeIcon icon={faEnvelope} />
+              <FontAwesomeIcon icon={faEnvelope} width="20" />
             </a>
           </Column>
         </Container>
