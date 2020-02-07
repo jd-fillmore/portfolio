@@ -8,6 +8,7 @@ import Column from "../column/column"
 import ProjectOverview from "../project-overview/project-overview"
 import Button from "../button/button"
 
+import bfe from "../../images/bfe.jpg"
 import ff7 from "../../images/ff7.jpg"
 import alc from "../../images/alc.jpg"
 import tims from "../../images/tims.jpg"
@@ -30,10 +31,70 @@ class Work extends Component {
         <section className="work">
           <Container className="container text-center">
             <Column className="column">
-              <h2>Featured Professional Work</h2>
+              <h2>Web Applications</h2>
             </Column>
           </Container>
           {/* Row 1 */}
+          <Container className="container">
+            <Column className="column">
+              <ProjectOverview
+                image={bfe}
+                altTag="BFE Loan Calculator"
+                heading="BFE Loan Calculator"
+                description="JavaScript, HTML5, CSS3"
+                linkText="View Project"
+                link="/bf-calculator"
+              />
+            </Column>
+            <Column className="column">
+              <ProjectOverview
+                image={bfe}
+                altTag="BFE Project Manager"
+                heading="BFE Project Manager"
+                description="ReactJS, Hooks, Redux, JavaScript, CSS3, SCSS"
+                linkText="View Project"
+                link="/bf-calculator"
+              />
+            </Column>
+            <Column className="column">
+              <ProjectOverview
+                image={reactMovie}
+                altTag="React MovieDB Api"
+                heading="Movie Database API"
+                description="ReactJS, CSS3, SCSS, JavaScript, Axios, REST API"
+                linkText="View Project"
+                link="/react-movie-api"
+              />
+            </Column>
+          </Container>
+          <Container className="container two">
+            <Column className="column">
+              <ProjectOverview
+                image={ff7}
+                altTag="Tavares API"
+                heading="Tavares API"
+                description="ReactJS, CSS3, SCSS, JavaScript, Axios, REST API"
+                linkText="View Project"
+                link="/tavares"
+              />
+            </Column>
+            <Column className="column">
+              <ProjectOverview
+                image={ff7}
+                altTag="FF7 Stats App"
+                heading="Final Fantasy Stats"
+                description="ReactJS, JavaScript, CSS3, SCSS, JSON"
+                linkText="View Project"
+                link="/ff7"
+              />
+            </Column>
+            <Column className="column">&nbsp;</Column>
+          </Container>
+          <Container className="container">
+            <Column className="column">
+              <h2>Websites</h2>
+            </Column>
+          </Container>
           <Container className="container">
             <Column className="column">
               <ProjectOverview
@@ -115,35 +176,7 @@ class Work extends Component {
             <Column className="column">&nbsp;</Column>
             <Column className="column">&nbsp;</Column>
           </Container>
-          <Container className="container">
-            <Column className="column">
-              <h2>Side Projects</h2>
-            </Column>
-          </Container>
-          {/* Row 2 */}
-          <Container className="container">
-            <Column className="column">
-              <ProjectOverview
-                image={reactMovie}
-                altTag="React MovieDB Api"
-                heading="Movie Database API"
-                description="ReactJS, HTML5, CSS3, JavaScript, Axios, REST API"
-                linkText="View Project"
-                link="/react-movie-api"
-              />
-            </Column>
-            <Column className="column">
-              <ProjectOverview
-                image={ff7}
-                altTag="FF7 Stats App"
-                heading="Final Fantasy Stats"
-                description="ReactJS, JavaScript, HTML5, CSS3, Sass, JSON"
-                linkText="View Project"
-                link="/ff7"
-              />
-            </Column>
-            <Column className="column">&nbsp;</Column>
-          </Container>
+
           <Container className="container">
             <Column className="column work-row">
               <a

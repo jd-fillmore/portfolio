@@ -40,7 +40,7 @@ class Footer extends Component {
               <FontAwesomeIcon icon={faGithub} width="20" />
             </a>
             <a
-              href="https://www.linkedin.com/in/jarryd-douglas/"
+              href="https://www.linkedin.com/in/jd-fillmore/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="linkedin"
