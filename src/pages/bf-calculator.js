@@ -10,7 +10,7 @@ import bfeCalcMobileImage from "../images/bfe-calculator-mobile.jpg"
 
 import ProjectDetailed from "../components/project-detailed/project-detailed"
 
-const FF7 = () => (
+const BFE = () => (
   <Layout>
     <SEO
       title="Battlefield Loan Calculator"
@@ -25,13 +25,13 @@ const FF7 = () => (
           projectLink="https://jk1rj.csb.app/"
           projectDescription="While working fulltime at BF Equipment Rentals, upper management wanted to incorporate a loan calculator on certain product pages on their website. My role was to orchestrate the entire project. From what technologies to use, to the design, build, implementation and launch of the application. The colours and fonts represent that of the brand."
           techUsed="HTML5, CSS3, JavaScript"
-          altTagSplit="ff7 split image"
+          altTagSplit="BFE split image"
           mobileImage={bfeCalcMobileImage}
-          altTagMobile="ff7 mobile image"
+          altTagMobile="BFE mobile image"
         />
       </Column>
     </Container>
   </Layout>
 )
 
-export default FF7
+export default BFE

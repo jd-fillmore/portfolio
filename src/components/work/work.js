@@ -58,6 +58,18 @@ class Work extends Component {
             </Column>
             <Column className="column">
               <ProjectOverview
+                image={ff7}
+                altTag="Maple Leafs API"
+                heading="Maple Leafs API"
+                description="ReactJS, React Hooks, Styled Components, JavaScript, Axios, REST API"
+                linkText="View Project"
+                link="/maple-leafs"
+              />
+            </Column>
+          </Container>
+          <Container className="container two">
+            <Column className="column">
+              <ProjectOverview
                 image={reactMovie}
                 altTag="React MovieDB Api"
                 heading="Movie Database API"
@@ -66,18 +78,7 @@ class Work extends Component {
                 link="/react-movie-api"
               />
             </Column>
-          </Container>
-          <Container className="container two">
-            <Column className="column">
-              <ProjectOverview
-                image={ff7}
-                altTag="Tavares API"
-                heading="Tavares API"
-                description="ReactJS, CSS3, SCSS, JavaScript, Axios, REST API"
-                linkText="View Project"
-                link="/tavares"
-              />
-            </Column>
+
             <Column className="column">
               <ProjectOverview
                 image={ff7}
