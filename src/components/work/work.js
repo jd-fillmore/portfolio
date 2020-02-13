@@ -9,6 +9,7 @@ import ProjectOverview from "../project-overview/project-overview"
 import Button from "../button/button"
 
 import bfe from "../../images/bfe.jpg"
+import leafs from "../../images/leafs.jpg"
 import ff7 from "../../images/ff7.jpg"
 import alc from "../../images/alc.jpg"
 import tims from "../../images/tims.jpg"
@@ -36,6 +37,18 @@ class Work extends Component {
           </Container>
           {/* Row 1 */}
           <Container className="container">
+            {/* <Column className="column">
+              <ProjectOverview
+                image={bfe}
+                altTag="BFE Project Manager"
+                heading="BFE Project Manager"
+                description="ReactJS, Hooks, Redux, JavaScript, CSS3, SCSS"
+                linkText="View Project"
+                link="/bf-calculator"
+              />
+            </Column>  */}
+          </Container>
+          <Container className="container">
             <Column className="column">
               <ProjectOverview
                 image={bfe}
@@ -48,17 +61,7 @@ class Work extends Component {
             </Column>
             <Column className="column">
               <ProjectOverview
-                image={bfe}
-                altTag="BFE Project Manager"
-                heading="BFE Project Manager"
-                description="ReactJS, Hooks, Redux, JavaScript, CSS3, SCSS"
-                linkText="View Project"
-                link="/bf-calculator"
-              />
-            </Column>
-            <Column className="column">
-              <ProjectOverview
-                image={ff7}
+                image={leafs}
                 altTag="Maple Leafs API"
                 heading="Maple Leafs API"
                 description="ReactJS, React Hooks, Styled Components, JavaScript, Axios, REST API"
@@ -66,8 +69,6 @@ class Work extends Component {
                 link="/maple-leafs"
               />
             </Column>
-          </Container>
-          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={reactMovie}
@@ -78,7 +79,8 @@ class Work extends Component {
                 link="/react-movie-api"
               />
             </Column>
-
+          </Container>
+          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={ff7}
@@ -89,6 +91,7 @@ class Work extends Component {
                 link="/ff7"
               />
             </Column>
+            <Column className="column">&nbsp;</Column>
             <Column className="column">&nbsp;</Column>
           </Container>
           <Container className="container">

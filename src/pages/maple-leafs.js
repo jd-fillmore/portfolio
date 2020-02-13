@@ -23,7 +23,7 @@ const MapleLeafs = () => (
           introImage={mapleLeafsIntroImage}
           altTag="Maple Leafs intro image"
           projectTitle="Maple Leafs API"
-          projectLink="https://flxdf.csb.app/"
+          projectLink="https://leafs.netlify.com/"
           projectDescription="As a front-end developer, I love learning new skills and expanding my knowledge. Before this project I did not know anything about React Hooks, Styled Components or Axios. With this project, I aimed to learn those things. This project gives the user the ability to view the best three players on the Leafs' statistics, consuming the NHL's REST API."
           techUsed="ReactJS, React Hooks, Styled Components, JavaScript, Axios, REST API"
           splitImage={mapleLeafsSplitImage}
