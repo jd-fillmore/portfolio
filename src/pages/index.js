@@ -14,8 +14,8 @@ const Home = () => (
       description="JD Fillmore is a front end developer that has worked with national brands building out interactive, online experiences. Click here to view projects."
     />
     <Hero
-      title="Front-End Developer and UI Designer since 2013"
-      description="Hi, I'm JD. I've worked with amazing international brands such as Tim Hortons, VelocityEHS and Thrillworks."
+      title="Hey, I'm JD. I design &amp; build front-end web applications &amp; websites."
+      description="Since 2013 I've created interactive online experiences, helping bring designs to life."
     />
     <Work />
     <Skills />

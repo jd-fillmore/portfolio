@@ -37,7 +37,7 @@ class Hero extends Component {
               <FontAwesomeIcon aria icon={faGithub} width="25" />
             </a>
             <a
-              href="https://www.linkedin.com/in/jarryd-douglas/"
+              href="https://www.linkedin.com/in/jd-fillmore/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="linkedin"
