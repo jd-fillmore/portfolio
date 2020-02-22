@@ -21,7 +21,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Roboto", "Nunito"],
+          families: ["Roboto:300, 400", "Nunito"],
         },
       },
     },
