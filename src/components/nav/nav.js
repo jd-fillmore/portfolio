@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import React from "react"
 import Container from "../container/container"
 import Column from "../column/column"
-import logo from "../../images/logo.png"
 import Resume from "../../JD-Fillmore.pdf"
 
 import "../variables.scss"
@@ -19,8 +18,8 @@ const Nav = () => (
   <nav>
     <Container className="container">
       <Column className="column">
-        <Link to="/">
-          <img src={logo} alt="JD Logo" />
+        <Link className="logo" to="/">
+          <p class="logo">JD Fillmore</p>
         </Link>
       </Column>
       <Column className="column right">
