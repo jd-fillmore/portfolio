@@ -166,7 +166,7 @@ class Work extends Component {
             </Column>
           </Container>
           {/* Row 3 */}
-          <Container className="container two">
+          {/* <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={hps}
@@ -179,7 +179,7 @@ class Work extends Component {
             </Column>
             <Column className="column">&nbsp;</Column>
             <Column className="column">&nbsp;</Column>
-          </Container>
+          </Container> */}
 
           <Container className="container">
             <Column className="column work-row">
