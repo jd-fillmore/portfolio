@@ -14,8 +14,8 @@ import ProjectDetailed from "../components/project-detailed/project-detailed"
 const HPS = () => (
   <Layout>
     <SEO
-      title="Cardon Rehab"
-      description="I helped build out the front end of Cardon Rehab's new website. Click here to learn more."
+      title="HPS"
+      description="I helped build out the front end of HPS' new website. Click here to learn more."
     />
     <Container>
       <Column>
