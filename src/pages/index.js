@@ -16,13 +16,8 @@ const variants = {
 const Home = () => (
   <Layout>
     <SEO
-<<<<<<< HEAD
-      title="Niagara Freelance Web Designer, SEO, Digital Marketing"
-      description="JD Fillmore is a Niagara web designer, SEO &amp; digital marketing consultant. Click here to view projects and get a quote as soon as possible."
-=======
       title="Front-End Developer, UI Designer | JD Fillmore"
       description="JD Fillmore is front-end developer and UI Designer. Click here to view some of his work."
->>>>>>> development
     />
     <motion.div
       initial="hidden"
