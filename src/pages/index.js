@@ -16,8 +16,8 @@ const variants = {
 const Home = () => (
   <Layout>
     <SEO
-      title="Front-End Developer, UI Designer | JD Fillmore"
-      description="JD Fillmore is front-end developer and UI Designer. Click here to view some of his work."
+      title="Freelance Designer, Web Developer, WordPress in Niagara | JD Fillmore"
+      description="JD Fillmore is Niagara-based freelance designer, web developer and WordPress developer. Click here to view some of his work."
     />
     <motion.div
       initial="hidden"
