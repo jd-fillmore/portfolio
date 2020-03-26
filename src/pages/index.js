@@ -16,8 +16,8 @@ const variants = {
 const Home = () => (
   <Layout>
     <SEO
-      title="Freelance Niagara WordPress Web Designer, Developer | JD Fillmore"
-      description="Freelance WordPress web designer and developer in Niagara. Click here to view some of JD Fillmore's client work."
+      title="Freelance Web Designer, Develope, SEO in Niagara"
+      description="JD is a freelance web designer, developer &amp; SEO in Niagara. Click here to view some of JD Fillmore's client work and to get a quote today."
     />
     <motion.div
       initial="hidden"
