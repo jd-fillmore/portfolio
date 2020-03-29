@@ -19,6 +19,7 @@ import cma from "../../images/cma.jpg"
 import mcAesthetics from "../../images/mc.jpg"
 import reactMovie from "../../images/freelance-seo-niagara.jpg"
 import cassabella from "../../images/cassabella.jpg"
+import kd from "../../images/kd.jpg"
 
 import "../work/work.scss"
 
@@ -112,6 +113,16 @@ class Work extends Component {
             </Column>
             <Column className="column">
               <ProjectOverview
+                image={kd}
+                altTag="KD Flowers"
+                heading="KD Flowers"
+                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
+                linkText="View Project"
+                link="/kd-flowers"
+              />
+            </Column>
+            <Column className="column">
+              <ProjectOverview
                 image={cassabella}
                 altTag="Cass-A-Bella Construction"
                 heading="Cass-A-Bella Construction"
@@ -120,6 +131,10 @@ class Work extends Component {
                 link="/cassabella-construction"
               />
             </Column>
+          </Container>
+
+          {/* Row 2 */}
+          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={mcAesthetics}
@@ -130,10 +145,6 @@ class Work extends Component {
                 link="/mc-aesthetics"
               />
             </Column>
-          </Container>
-
-          {/* Row 2 */}
-          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={cardon}
@@ -154,6 +165,9 @@ class Work extends Component {
                 link="/alc-interiors"
               />
             </Column>
+          </Container>
+          {/* Row 3 */}
+          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={cma}
@@ -164,9 +178,6 @@ class Work extends Component {
                 link="/cma"
               />
             </Column>
-          </Container>
-          {/* Row 3 */}
-          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={hps}
@@ -177,7 +188,6 @@ class Work extends Component {
                 link="/hps"
               />
             </Column>
-            <Column className="column">&nbsp;</Column>
             <Column className="column">&nbsp;</Column>
           </Container>
 
