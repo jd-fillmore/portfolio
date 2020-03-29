@@ -8,8 +8,8 @@ import Column from "../column/column"
 import ProjectOverview from "../project-overview/project-overview"
 import Button from "../button/button"
 
-import bfe from "../../images/bfe.jpg"
-import leafs from "../../images/leafs.jpg"
+import bfe from "../../images/freelance-web-designer-niagara.jpg"
+import leafs from "../../images/freelance-web-developer-niagara.jpg"
 import ff7 from "../../images/ff7.jpg"
 import alc from "../../images/alc.jpg"
 import tims from "../../images/tims.jpg"
@@ -17,7 +17,7 @@ import cardon from "../../images/cardon.jpg"
 import hps from "../../images/hps.jpg"
 import cma from "../../images/cma.jpg"
 import mcAesthetics from "../../images/mc.jpg"
-import reactMovie from "../../images/react-movie-api.jpg"
+import reactMovie from "../../images/freelance-seo-niagara.jpg"
 import cassabella from "../../images/cassabella.jpg"
 
 import "../work/work.scss"
@@ -52,7 +52,7 @@ class Work extends Component {
             <Column className="column">
               <ProjectOverview
                 image={bfe}
-                altTag="BFE Loan Calculator"
+                altTag="freelance web designer niagara"
                 heading="BFE Loan Calculator"
                 description="JavaScript, HTML5, CSS3"
                 linkText="View Project"
@@ -62,7 +62,7 @@ class Work extends Component {
             <Column className="column">
               <ProjectOverview
                 image={leafs}
-                altTag="Maple Leafs API"
+                altTag="freelance web developer niagara"
                 heading="Maple Leafs API"
                 description="ReactJS, React Hooks, Styled Components, JavaScript, Axios, REST API"
                 linkText="View Project"
@@ -72,7 +72,7 @@ class Work extends Component {
             <Column className="column">
               <ProjectOverview
                 image={reactMovie}
-                altTag="React MovieDB Api"
+                altTag="freelance seo niagara"
                 heading="Movie Database API"
                 description="ReactJS, CSS3, SCSS, JavaScript, Axios, REST API"
                 linkText="View Project"
