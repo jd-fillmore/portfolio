@@ -26,8 +26,6 @@ const BFE = () => (
           projectLink="https://jk1rj.csb.app/"
           projectDescription="While working fulltime at BF Equipment Rentals, upper management wanted to incorporate a loan calculator on certain product pages on their website. My role was to orchestrate the entire project. From what technologies to use, to the design, build, implementation and launch of the application. The colours and fonts represent that of the brand."
           techUsed="HTML5, CSS3, JavaScript."
-          githubText="View Code on Github"
-          githubLink="https://github.com/jd-fillmore/bfe-calculator"
           splitImage={bfeCalcSplitImage}
           altTagSplit="BFE split image"
           mobileImage={bfeCalcMobileImage}
