@@ -25,7 +25,9 @@ const FF7 = () => (
           projectTitle="Cass-A-Bella Construction"
           projectLink="https://cassabellaconstruction.com"
           projectDescription="Reached out to Cass-A-Bella Construction, offering to re-design and re-build their website on a modern platform. Their current website was very outdated in terms of design and technology stack. I decided to completely re-design and re-build their website from the ground up, using modern design and front-end development technologies. The website is now faster, more performant and accessible, and looks a lot nicer than previously."
-          techUsed="HTML5, CSS3, Sass, JavaScript, Gatsby, React, NPM, Flexbox, Sketch"
+          techUsed="React, Gatsby, Flexbox, HTML5, CSS3, Sass, JavaScript, NPM, Sketch."
+          githubText="View Code on Github"
+          githubLink="https://github.com/jd-fillmore/cassabella"
           altSpeedScore="cassabella score"
           splitImage={cassSplitImage}
           altTagSplit="cass split image"
