@@ -25,7 +25,9 @@ const FF7 = () => (
           projectTitle="KD Flowers"
           projectLink="https://kdflowers.ca"
           projectDescription="A past client of mine referred me to KD Flowers. She wanted a modern website built that was simple, attractive, and fast. Technically speaking, I reached for React / Gatsby to do the job. KD Flowers was extremely happy with the result of her new website and we continue to work together."
-          techUsed="HTML5, CSS3, Sass, JavaScript, Gatsby, React, NPM, Flexbox, Sketch"
+          techUsed="Raect, Gatsby, JavaScript, Flexbox, HTML5, CSS3, Sass, NPM, Sketch"
+          githubText="View Code on Github"
+          githubLink="https://github.com/jd-fillmore/kdflowers"
           splitImage={kdSplitImage}
           altTagSplit="kd flowers split image"
           mobileImage={kdMobileImage}

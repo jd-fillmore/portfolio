@@ -53,6 +53,9 @@ class ProjectDetailed extends Component {
             <Column className="column">
               <h4>Technologies Used</h4>
               <p>{this.props.techUsed}</p>
+              <a target="_blank" href={this.props.githubLink}>
+                {this.props.githubText}
+              </a>
             </Column>
           </Container>
           {/* Split Image */}

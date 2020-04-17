@@ -25,7 +25,7 @@ const Portfolio = () => (
           projectTitle="Portfolio"
           projectLink="https://jdfill.me"
           projectDescription="I wanted to learn Gatsby (a React-based static site generator), so I decided to build my portfolio using those technologies. I learned a ton about not only React, but also JavaScript in the process as well. Gatsby is extremely fast, and seems to be a perfect fit for creating any website moving forward."
-          techUsed="Static generated site on VueJS, JavaScript, Gridsome, HTML5, CSS3, Bootstrap 4, NPM"
+          techUsed="Gatsby, React, JavaScript, Flexbox, HTML5, CSS3, NPM"
           splitImage={portfolioSplitImage}
           altTagSplit="portfolio split image"
           mobileImage={portfolioMobileImage}

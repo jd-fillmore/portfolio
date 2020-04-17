@@ -25,7 +25,7 @@ const Cardon = () => (
           projectTitle="Cardon Rehab"
           projectLink="https://cardonrehab.com"
           projectDescription="While employed by Thrillworks, Cardon Rehab requested for us to build them a modern website based on WordPress that allowed them to showcase their products to the world. My role here was to lead the front-end planning and development, as well as UI design."
-          techUsed="HTML5, CSS3, Sass, JavaScript, NPM, Foundation, Photoshop, Sketch"
+          techUsed="HTML5, CSS3, Sass, JavaScript, NPM, Foundation, Photoshop, Sketch."
           splitImage={cardonSplitImage}
           altTagSplit="cardon split image"
           mobileImage={cardonMobileImage}
