@@ -3,14 +3,8 @@ import { Link } from "gatsby"
 import Container from "../container/container"
 import Column from "../column/column"
 import Section from "../section/section"
-import { motion } from "framer-motion"
 
 import "../project-detailed/project-detailed.scss"
-
-const variants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1 },
-}
 
 class ProjectDetailed extends Component {
   render() {
@@ -18,18 +12,11 @@ class ProjectDetailed extends Component {
       <Section className="inner project-detailed">
         <Section className="intro">
           {/* Laptop Image */}
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={variants}
-            transition={{ duration: 1 }}
-          >
-            <Container className="container">
-              <Column className="column">
-                <img src={this.props.introImage} alt={this.props.altTag} />
-              </Column>
-            </Container>
-          </motion.div>
+          <Container className="container">
+            <Column className="column">
+              <img src={this.props.introImage} alt={this.props.altTag} />
+            </Column>
+          </Container>
           {/* Title, Role, Tech, Site Link */}
           <Container className="container">
             <Column className="column flex">
@@ -59,18 +46,12 @@ class ProjectDetailed extends Component {
             </Column>
           </Container>
           {/* Split Image */}
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={variants}
-            transition={{ duration: 1 }}
-          >
-            <Container className="container">
-              <Column className="column">
-                <img src={this.props.splitImage} alt={this.props.altTagSplit} />
-              </Column>
-            </Container>
-          </motion.div>
+          <Container className="container">
+            <Column className="column">
+              <img src={this.props.splitImage} alt={this.props.altTagSplit} />
+            </Column>
+          </Container>
+
           {/* Mobile Image */}
           <Container className="container">
             <Column className="column">
