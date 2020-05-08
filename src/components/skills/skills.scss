@@ -12,7 +12,7 @@
   }
   .container {
     @include bp-mobile {
-      display: block;
+      display: flex;
     }
     .column {
       text-align: center;

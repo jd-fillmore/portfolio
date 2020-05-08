@@ -25,7 +25,7 @@ const Cardon = () => (
           projectTitle="Movie Database API"
           projectLink="https://zeqk4.csb.app/"
           projectDescription="I wanted to learn ReactJS as well as Axios for API fetching, since my full time job didn't allow for this type of work. I took an idea based on something I liked (movies), and made a Movie Database API search out of it."
-          techUsed="ReactJS, State, JavaScript, HTML5, CSS3, Axios, REST APIs, MaterialUI"
+          techUsed="Adobe XD, React, JavaScript, Node, Axios, REST API, Sass"
           githubText="View Code on Github"
           githubLink="https://github.com/jd-fillmore/react-movie-api"
           splitImage={reactSplitImage}

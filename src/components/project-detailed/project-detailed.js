@@ -5,6 +5,7 @@ import Column from "../column/column"
 import Section from "../section/section"
 
 import "../project-detailed/project-detailed.scss"
+import "../button/button.scss"
 
 class ProjectDetailed extends Component {
   render() {
@@ -40,7 +41,11 @@ class ProjectDetailed extends Component {
             <Column className="column">
               <h4>Technologies Used</h4>
               <p>{this.props.techUsed}</p>
-              <a target="_blank" href={this.props.githubLink}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={this.props.githubLink}
+              >
                 {this.props.githubText}
               </a>
             </Column>

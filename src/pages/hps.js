@@ -25,7 +25,7 @@ const HPS = () => (
           projectTitle="Hammond Power"
           projectLink="https://hammondpowersolutions.com"
           projectDescription="While employed by Thrillworks, Hammond Power requested for us to build them a modern website that allowed them to showcase their products to the world. My role was to lead the front-end initiatives, work agile within a team and lead from wireframes to development to launch."
-          techUsed="HTML5, CSS3, Sass, JavaScript, Sitecore, NPM, Node, Bulma, Flexbox, Photoshop, Sketch"
+          techUsed="Adobe XD, JavaScript, Node, Sass, HTML5."
           splitImage={hpsSplitImage}
           altTagSplit="hps split image"
           mobileImage={hpsMobileImage}

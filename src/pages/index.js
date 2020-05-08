@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-// import { motion } from "framer-motion"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,10 +7,7 @@ import Hero from "../components/hero/hero"
 import Skills from "../components/skills/skills"
 import Work from "../components/work/work"
 
-// const variants = {
-//   hidden: { opacity: 0 },
-//   visible: { opacity: 1 },
-// }
+console.log("I see you creeping!")
 
 const Home = () => (
   <Layout>

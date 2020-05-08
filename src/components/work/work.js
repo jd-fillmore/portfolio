@@ -1,12 +1,8 @@
 import React, { Component } from "react"
 
-import AOS from "aos"
-import "aos/dist/aos.css"
-
 import Container from "../container/container"
 import Column from "../column/column"
 import ProjectOverview from "../project-overview/project-overview"
-import Button from "../button/button"
 
 import bfe from "../../images/freelance-web-designer-niagara.jpg"
 import leafs from "../../images/freelance-web-developer-niagara.jpg"
@@ -24,9 +20,6 @@ import kd from "../../images/kd.jpg"
 import "../work/work.scss"
 
 class Work extends Component {
-  componentDidMount() {
-    AOS.init({})
-  }
   render() {
     return (
       <>
@@ -43,7 +36,7 @@ class Work extends Component {
                 image={bfe}
                 altTag="BFE Project Manager"
                 heading="BFE Project Manager"
-                description="ReactJS, Hooks, Redux, JavaScript, CSS3, SCSS"
+                description="React, Hooks, Redux, JavaScript, CSS3, SCSS"
                 linkText="View Project"
                 link="/bf-calculator"
               />
@@ -53,9 +46,9 @@ class Work extends Component {
             <Column className="column">
               <ProjectOverview
                 image={bfe}
-                altTag="freelance web designer niagara"
+                altTag="BFE Loan Calculator"
                 heading="BFE Loan Calculator"
-                description="JavaScript, HTML5, CSS3"
+                description="JavaScript, Node, Sass, HTML5"
                 linkText="View Project"
                 link="/bf-calculator"
               />
@@ -63,9 +56,9 @@ class Work extends Component {
             <Column className="column">
               <ProjectOverview
                 image={leafs}
-                altTag="freelance web developer niagara"
+                altTag="Maple Leafs API"
                 heading="Maple Leafs API"
-                description="ReactJS, React Hooks, Styled Components, JavaScript, Axios, REST API"
+                description="Adobe XD, React, React Hooks, Styled Components, JavaScript, Node, Axios, REST API, Sass"
                 linkText="View Project"
                 link="/maple-leafs"
               />
@@ -73,9 +66,9 @@ class Work extends Component {
             <Column className="column">
               <ProjectOverview
                 image={reactMovie}
-                altTag="freelance seo niagara"
+                altTag="Movie Database API"
                 heading="Movie Database API"
-                description="ReactJS, CSS3, SCSS, JavaScript, Axios, REST API"
+                description="Adobe XD, React, JavaScript, Node, Axios, REST API, Sass"
                 linkText="View Project"
                 link="/react-movie-api"
               />
@@ -87,7 +80,7 @@ class Work extends Component {
                 image={ff7}
                 altTag="FF7 Stats App"
                 heading="Final Fantasy Stats"
-                description="ReactJS, JavaScript, CSS3, SCSS, JSON"
+                description="Adobe XD, React, JavaScript, Node, Sass, JSON"
                 linkText="View Project"
                 link="/ff7"
               />
@@ -106,7 +99,7 @@ class Work extends Component {
                 image={tims}
                 altTag="Tim's"
                 heading="Tim Hortons"
-                description="HTML5, CSS3, Sass, JavaScript"
+                description="JavaScript, Node, Sass, HTML5"
                 linkText="View Project"
                 link="/tims"
               />
@@ -116,7 +109,7 @@ class Work extends Component {
                 image={kd}
                 altTag="KD Flowers"
                 heading="KD Flowers"
-                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
+                description="Adobe XD, React, Gatsby, JavaScript, Node, Sass"
                 linkText="View Project"
                 link="/kd-flowers"
               />
@@ -126,7 +119,7 @@ class Work extends Component {
                 image={cassabella}
                 altTag="Cass-A-Bella Construction"
                 heading="Cass-A-Bella Construction"
-                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
+                description="Adobe XD, React, Gatsby, JavaScript, Node, Sass"
                 linkText="View Project"
                 link="/cassabella-construction"
               />
@@ -140,7 +133,7 @@ class Work extends Component {
                 image={mcAesthetics}
                 altTag="MC Aesthetics"
                 heading="MC Aesthetics"
-                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
+                description="Adobe XD, React, Gatsby, JavaScript, HTML5, CSS3, Sass"
                 linkText="View Project"
                 link="/mc-aesthetics"
               />
@@ -150,7 +143,7 @@ class Work extends Component {
                 image={cardon}
                 altTag="Cardon"
                 heading="Cardon Rehab"
-                description="HTML5, CSS3, Sass, JavaScript"
+                description="Adobe XD, JavaScript, Node, Sass, HTML5"
                 linkText="View Project"
                 link="/cardon"
               />
@@ -160,7 +153,7 @@ class Work extends Component {
                 image={alc}
                 altTag="ALC Interiors"
                 heading="ALC Interiors"
-                description="ReactJS, Gatsby, JavaScript, HTML5, CSS3, Sass"
+                description="Adobe XD, React, Gatsby, JavaScript, Node, Sass"
                 linkText="View Project"
                 link="/alc-interiors"
               />
@@ -173,7 +166,7 @@ class Work extends Component {
                 image={cma}
                 altTag="CMA"
                 heading="CMA Mortgages"
-                description="HTML5, CSS3, Sass, JavaScript"
+                description="Adobe XD, JavaScript, Node, Sass, HTML5"
                 linkText="View Project"
                 link="/cma"
               />
@@ -183,24 +176,12 @@ class Work extends Component {
                 image={hps}
                 altTag="Hammond"
                 heading="Hammond Power"
-                description="HTML5, CSS3, Sass, JavaScript"
+                description="Adobe XD, JavaScript, Node, Sass, HTML5"
                 linkText="View Project"
                 link="/hps"
               />
             </Column>
             <Column className="column">&nbsp;</Column>
-          </Container>
-
-          <Container className="container">
-            <Column className="column work-row">
-              <a
-                href="https://www.behance.net/jdfillmore"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button className="work-btn">View More Work</Button>
-              </a>
-            </Column>
           </Container>
         </section>
       </>

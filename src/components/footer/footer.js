@@ -6,11 +6,7 @@ import Column from "../column/column"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
-import {
-  faGithub,
-  faLinkedin,
-  faBehance,
-} from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 class Footer extends Component {
   render() {
@@ -46,14 +42,6 @@ class Footer extends Component {
               aria-label="linkedin"
             >
               <FontAwesomeIcon icon={faLinkedin} width="20" />
-            </a>
-            <a
-              href="https://www.behance.net/jdfillmore"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="behance"
-            >
-              <FontAwesomeIcon icon={faBehance} width="20" />
             </a>
             <a
               href="mailto:jd@jdfill.me"

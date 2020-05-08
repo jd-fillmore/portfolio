@@ -9,9 +9,8 @@ import "../base.scss"
 import "../nav/nav.scss"
 
 const navItems = {
-  linkOne: "Work",
-  linkTwo: "Resume",
-  linkThree: "Contact",
+  linkOne: "Resume",
+  linkTwo: "Contact",
 }
 
 const Nav = () => (
@@ -19,15 +18,14 @@ const Nav = () => (
     <Container className="container">
       <Column className="column">
         <Link className="logo" to="/">
-          <p class="logo">JD Fillmore</p>
+          <p className="logo">JD Fillmore</p>
         </Link>
       </Column>
       <Column className="column right">
-        <Link to="/">{navItems.linkOne}</Link>
         <a href={Resume} target="_blank" rel="noopener noreferrer">
-          {navItems.linkTwo}
+          {navItems.linkOne}
         </a>
-        <Link to="/contact">{navItems.linkThree}</Link>
+        <Link to="/contact">{navItems.linkTwo}</Link>
       </Column>
     </Container>
   </nav>
