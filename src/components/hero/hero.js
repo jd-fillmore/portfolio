@@ -5,6 +5,7 @@ import "aos/dist/aos.css"
 
 import Container from "../container/container"
 import Column from "../column/column"
+import Resume from "../../JD-Fillmore.pdf"
 
 import "../hero/hero.scss"
 
@@ -20,6 +21,15 @@ class Hero extends Component {
           <Column className="column first">
             <h1>{this.props.title}</h1>
             <p>{this.props.description}</p>
+            <a
+              href={Resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="github"
+            >
+              Resume
+            </a>
+            <span>/</span>
             <a
               href="https://github.com/jd-fillmore/"
               target="_blank"
