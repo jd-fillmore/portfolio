@@ -7,18 +7,6 @@ import Hero from "../components/hero/hero"
 import Skills from "../components/skills/skills"
 import Work from "../components/work/work"
 
-const skills = [
-  "React",
-  "React Hooks",
-  "JavaScript",
-  "TypeScript",
-  "Styled Components",
-  "Gatsby",
-  "Sass",
-  "Accessibility",
-  "Adobe XD",
-]
-
 const Home = () => (
   <Layout>
     <SEO
@@ -29,7 +17,7 @@ const Home = () => (
       title="Front-end developer & UI designer."
       description="Seasoned remote front-end developer with a core focus on driving business results. Experienced in developing websites and web applications that deliver on impact, functionality and accessibility. Employed at one of Canada’s largest equipment rental operations."
     />
-    <Skills title="Recent Technology Stack" skills={skills} />
+    <Skills title="Recent Technology Stack" />
     <Work />
   </Layout>
 )

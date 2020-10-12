@@ -5,21 +5,31 @@ import Column from "../column/column"
 
 import "../skills/skills.scss"
 
+const skills = [
+  "React",
+  "React Hooks",
+  "JavaScript",
+  "TypeScript",
+  "Styled Components",
+  "Gatsby",
+  "Sass",
+  "Accessibility",
+  "Adobe XD",
+]
+
 class Skills extends Component {
   render() {
-    const props = this.props
-
     return (
       <div className="skills">
         <Container className="container">
           <Column className="column">
-            <h4>{props.title}</h4>
+            <h4>{this.props.title}</h4>
           </Column>
         </Container>
         <Container className="container">
           <Column className="column">
             <ul>
-              {props.skills.map(skill => (
+              {skills.map(skill => (
                 <li key={skill}>{skill}</li>
               ))}
             </ul>
