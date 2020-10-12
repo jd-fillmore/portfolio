@@ -7,27 +7,19 @@ import "../skills/skills.scss"
 
 class Skills extends Component {
   render() {
-    const skills = [
-      "React",
-      "React Hooks",
-      "JavaScript",
-      "TypeScript",
-      "Styled Components",
-      "Gatsby",
-      "Sass",
-      "Accessibility",
-    ]
+    const props = this.props
+
     return (
       <div className="skills">
         <Container className="container">
           <Column className="column">
-            <h4>Recent Technology Stack</h4>
+            <h4>{props.title}</h4>
           </Column>
         </Container>
         <Container className="container">
           <Column className="column">
             <ul>
-              {skills.map(skill => (
+              {props.skills.map(skill => (
                 <li key={skill}>{skill}</li>
               ))}
             </ul>

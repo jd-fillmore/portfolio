@@ -4,7 +4,6 @@
 // Footer
 
 footer {
-  background-image: linear-gradient(90deg, #412caf, #0671bc);
   padding-top: 60px;
   padding-bottom: 80px;
   @include bp-tablet {
@@ -17,11 +16,15 @@ footer {
   h4,
   p,
   a {
-    color: $white;
+    color: $body;
   }
   svg {
     font-size: 20px !important;
     margin-right: 30px;
     margin-left: 30px;
+    &:focus,
+    &:hover {
+      color: $primary;
+    }
   }
 }
