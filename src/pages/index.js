@@ -7,8 +7,6 @@ import Hero from "../components/hero/hero"
 import Skills from "../components/skills/skills"
 import Work from "../components/work/work"
 
-console.log("I see you creeping!")
-
 const Home = () => (
   <Layout>
     <SEO
@@ -19,8 +17,8 @@ const Home = () => (
       title="Front-end developer with an eye for design."
       description="Years of experience working with national brand & SaaS products. Enjoy tinkering with API's, creating beautiful user interfaces and more."
     />
-    <Work />
     <Skills />
+    <Work />
   </Layout>
 )
 

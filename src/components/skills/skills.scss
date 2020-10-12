@@ -4,40 +4,26 @@
 // Skills
 
 .skills {
-  padding-top: 80px;
   padding-bottom: 80px;
   @include bp-tablet {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .container {
-    @include bp-mobile {
-      display: flex;
-    }
-    .column {
-      text-align: center;
-      @include bp-mobile {
-        text-align: left;
+
+  ul {
+    margin-top: -10px;
+    padding-left: 0px;
+    li {
+      display: inline-block;
+      margin-left: 10px;
+      border-right: 1px solid $light-grey;
+      padding-right: 10px;
+      &:first-child {
+        margin-left: 0px;
       }
-    }
-  }
-  h2 {
-    margin-bottom: 50px;
-    text-align: left;
-    @include bp-tablet {
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-  }
-  svg {
-    color: $primary;
-    font-size: 60px;
-    margin-bottom: -10px;
-    display: block;
-    margin: 0 auto;
-    @include bp-mobile {
-      display: flex;
-      margin: initial;
+      &:last-child {
+        border-right: none;
+      }
     }
   }
 }
