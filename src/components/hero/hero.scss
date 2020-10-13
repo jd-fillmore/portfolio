@@ -47,6 +47,9 @@
       color: $secondary;
       text-decoration: underline;
     }
+    @include bp-mobile-sm {
+      font-size: 14px;
+    }
   }
   span {
     padding-left: 20px;
