@@ -11,7 +11,7 @@ p,
 a,
 ol,
 ul {
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin-bottom: 20px;
   line-height: 1.6;
 }
@@ -23,8 +23,8 @@ h4,
 h5,
 h6 {
   color: $heading;
-  font-weight: 200 !important;
   letter-spacing: 0px;
+  font-weight: 500;
 }
 
 h4 {
