@@ -96,16 +96,6 @@ class Work extends Component {
           <Container className="container">
             <Column className="column">
               <ProjectOverview
-                image={tims}
-                altTag="Tim's"
-                heading="Tim Hortons"
-                description="JavaScript, Node, Sass, HTML5"
-                linkText="View Project"
-                link="/tims"
-              />
-            </Column>
-            <Column className="column">
-              <ProjectOverview
                 image={kd}
                 altTag="KD Flowers"
                 heading="KD Flowers"
@@ -124,10 +114,6 @@ class Work extends Component {
                 link="/cassabella-construction"
               />
             </Column>
-          </Container>
-
-          {/* Row 2 */}
-          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={mcAesthetics}
@@ -136,6 +122,20 @@ class Work extends Component {
                 description="Adobe XD, React, Gatsby, JavaScript, HTML5, CSS3, Sass"
                 linkText="View Project"
                 link="/mc-aesthetics"
+              />
+            </Column>
+          </Container>
+
+          {/* Row 2 */}
+          <Container className="container two">
+            <Column className="column">
+              <ProjectOverview
+                image={cma}
+                altTag="CMA"
+                heading="CMA Mortgages"
+                description="Adobe XD, JavaScript, Node, Sass, HTML5"
+                linkText="View Project"
+                link="/cma"
               />
             </Column>
             <Column className="column">
@@ -150,29 +150,6 @@ class Work extends Component {
             </Column>
             <Column className="column flex">
               <ProjectOverview
-                image={alc}
-                altTag="ALC Interiors"
-                heading="ALC Interiors"
-                description="Adobe XD, React, Gatsby, JavaScript, Node, Sass"
-                linkText="View Project"
-                link="/alc-interiors"
-              />
-            </Column>
-          </Container>
-          {/* Row 3 */}
-          <Container className="container two">
-            <Column className="column">
-              <ProjectOverview
-                image={cma}
-                altTag="CMA"
-                heading="CMA Mortgages"
-                description="Adobe XD, JavaScript, Node, Sass, HTML5"
-                linkText="View Project"
-                link="/cma"
-              />
-            </Column>
-            <Column className="column">
-              <ProjectOverview
                 image={hps}
                 altTag="Hammond"
                 heading="Hammond Power"
@@ -181,7 +158,6 @@ class Work extends Component {
                 link="/hps"
               />
             </Column>
-            <Column className="column">&nbsp;</Column>
           </Container>
         </section>
       </>
