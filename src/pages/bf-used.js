@@ -24,8 +24,8 @@ const BFE = () => (
           altTag="BFE intro image"
           projectTitle="BF Equipment Used Equipment"
           projectLink="https://used.battlefieldequipment.ca/"
-          projectDescription="While working fulltime at BF Equipment Rentals, upper management wanted to incorporate a loan calculator on certain product pages on their website. My role was to orchestrate the entire project. From what technologies to use, to the design, build, implementation and launch of the application. The colours and fonts represent that of the brand."
-          techUsed="JavaScript, Node, Sass, HTML5."
+          projectDescription="While working fulltime at BF Equipment Rentals, upper management wanted to adjust an already-built Toromont CAT web application and customize it for our company. My role was to customize the look, as well as implement new features. Notably, company-specific product filtering and image categorization based on values from a REST API."
+          techUsed="React, TypeScript, JavaScript, SCSS, REST API"
           splitImage={bfeUsedSplitImage}
           altTagSplit="BFE split image"
           mobileImage={bfeUsedMobileImage}
