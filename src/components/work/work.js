@@ -4,6 +4,7 @@ import Container from "../container/container"
 import Column from "../column/column"
 import ProjectOverview from "../project-overview/project-overview"
 
+import bfeUsed from "../../images/bfe-used.jpg"
 import bfe from "../../images/freelance-web-designer-niagara.jpg"
 import leafs from "../../images/freelance-web-developer-niagara.jpg"
 import ff7 from "../../images/ff7.jpg"
@@ -28,19 +29,18 @@ class Work extends Component {
             </Column>
           </Container>
           {/* Row 1 */}
+
           <Container className="container">
-            {/* <Column className="column">
+            <Column className="column">
               <ProjectOverview
-                image={bfe}
-                altTag="BFE Project Manager"
-                heading="BFE Project Manager"
-                description="React, Hooks, Redux, JavaScript, CSS3, SCSS"
+                image={bfeUsed}
+                altTag="BFE Used Equipment"
+                heading="BFE Used Equipment"
+                description="React, TypeScript, JavaScript, SCSS, REST API"
                 linkText="View Project"
-                link="/bf-calculator"
+                link="/bf-used"
               />
-            </Column>  */}
-          </Container>
-          <Container className="container">
+            </Column>
             <Column className="column">
               <ProjectOverview
                 image={bfe}
@@ -61,6 +61,8 @@ class Work extends Component {
                 link="/maple-leafs"
               />
             </Column>
+          </Container>
+          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={reactMovie}
@@ -71,8 +73,6 @@ class Work extends Component {
                 link="/react-movie-api"
               />
             </Column>
-          </Container>
-          <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={ff7}
@@ -83,7 +83,6 @@ class Work extends Component {
                 link="/ff7"
               />
             </Column>
-            <Column className="column">&nbsp;</Column>
             <Column className="column">&nbsp;</Column>
           </Container>
           <Container className="container">
