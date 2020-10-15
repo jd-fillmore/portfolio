@@ -15,7 +15,10 @@ const Home = () => (
     />
     <Hero
       title="Front-end developer & UI designer."
-      description="Seasoned remote front-end developer &amp; UI designer with a core focus on driving business results. Experienced in developing websites and web applications that deliver on impact, functionality and accessibility. Employed at one of Canada’s largest equipment rental operations."
+      description="7 years experience in developing and designing functional, accessible websites and web applications for in-house
+      corporations and clients. Experienced in leading projects from concept to launch as well as mentoring junior front-end
+      developers.
+      "
     />
     <Skills title="Recent Technology Stack" />
     <Work />
