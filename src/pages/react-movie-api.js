@@ -22,7 +22,7 @@ const Cardon = () => (
         <ProjectDetailed
           introImage={reactIntroImage}
           altTag="react intro image"
-          projectTitle="Movie Database API"
+          projectTitle="Movie Database"
           projectLink="https://zeqk4.csb.app/"
           projectDescription="I wanted to learn ReactJS as well as Axios for API fetching, since my full time job didn't allow for this type of work. I took an idea based on something I liked (movies), and made a Movie Database API search out of it."
           techUsed="Adobe XD, React, JavaScript, Node, Axios, REST API, Sass"

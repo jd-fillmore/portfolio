@@ -7,8 +7,6 @@ import ProjectOverview from "../project-overview/project-overview"
 import bfe from "../../images/freelance-web-designer-niagara.jpg"
 import leafs from "../../images/freelance-web-developer-niagara.jpg"
 import ff7 from "../../images/ff7.jpg"
-import alc from "../../images/alc.jpg"
-import tims from "../../images/tims.jpg"
 import cardon from "../../images/cardon.jpg"
 import hps from "../../images/hps.jpg"
 import cma from "../../images/cma.jpg"
@@ -56,8 +54,8 @@ class Work extends Component {
             <Column className="column">
               <ProjectOverview
                 image={leafs}
-                altTag="Maple Leafs API"
-                heading="Maple Leafs API"
+                altTag="Maple Leafs Stats"
+                heading="Maple Leafs Stats"
                 description="Adobe XD, React, React Hooks, Styled Components, JavaScript, Node, Axios, REST API, Sass"
                 linkText="View Project"
                 link="/maple-leafs"
@@ -66,8 +64,8 @@ class Work extends Component {
             <Column className="column">
               <ProjectOverview
                 image={reactMovie}
-                altTag="Movie Database API"
-                heading="Movie Database API"
+                altTag="Movie Database"
+                heading="Movie Database"
                 description="Adobe XD, React, JavaScript, Node, Axios, REST API, Sass"
                 linkText="View Project"
                 link="/react-movie-api"
