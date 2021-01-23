@@ -10,7 +10,7 @@ const skills = [
   "React Hooks",
   "JavaScript",
   "Styled Components",
-  "Gatsby",
+  "GatsbyJS",
   "Sass",
   "Accessibility",
   "Adobe XD",
