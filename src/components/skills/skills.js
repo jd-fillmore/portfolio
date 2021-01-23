@@ -9,7 +9,6 @@ const skills = [
   "React",
   "React Hooks",
   "JavaScript",
-  "TypeScript",
   "Styled Components",
   "Gatsby",
   "Sass",
