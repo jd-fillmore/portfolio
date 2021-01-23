@@ -15,10 +15,12 @@ const Home = () => (
     />
     <Hero
       title="Front-end developer & UI designer."
-      description="7 years experience in developing and designing functional, accessible websites and web applications for in-house
-      corporations and clients. Experienced in leading projects from concept to launch as well as mentoring junior front-end
-      developers.
-      "
+      description={[
+        "Experience developing and designing functional, accessible websites and web applications for in-house corporations and clients. Experienced in leading projects, amplifying company revenue and mentoring junior front-end developers.",
+        <br />,
+        <br />,
+        "If you require a technology I haven’t used, I am willing to learn it.",
+      ]}
     />
     <Skills title="Recent Technology Stack" />
     <Work />

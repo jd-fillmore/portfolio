@@ -46,7 +46,7 @@ class Work extends Component {
                 image={bfe}
                 altTag="BFE Loan Calculator"
                 heading="BFE Loan Calculator"
-                description="JavaScript, Node, Sass, HTML5"
+                description="JavaScript, Sass, HTML5"
                 linkText="View Project"
                 link="/bf-calculator"
               />
