@@ -113,12 +113,12 @@ class Work extends Component {
             </Column>
             <Column className="column">
               <ProjectOverview
-                image={mcAesthetics}
-                altTag="MC Aesthetics"
-                heading="MC Aesthetics"
-                description="Adobe XD, React, Gatsby, JavaScript, HTML5, CSS3, Sass"
+                image={hps}
+                altTag="Hammond"
+                heading="Hammond Power"
+                description="Adobe XD, JavaScript, Node, Sass, HTML5"
                 linkText="View Project"
-                link="/mc-aesthetics"
+                link="/hps"
               />
             </Column>
           </Container>
@@ -145,16 +145,7 @@ class Work extends Component {
                 link="/cardon"
               />
             </Column>
-            <Column className="column flex">
-              <ProjectOverview
-                image={hps}
-                altTag="Hammond"
-                heading="Hammond Power"
-                description="Adobe XD, JavaScript, Node, Sass, HTML5"
-                linkText="View Project"
-                link="/hps"
-              />
-            </Column>
+            <Column className="column">&nbsp;</Column>
           </Container>
         </section>
       </>
