@@ -25,7 +25,7 @@ const BFE = () => (
           projectTitle="BF Equipment Loan Calculator"
           projectLink="https://jk1rj.csb.app/"
           projectDescription="While working fulltime at BF Equipment Rentals, upper management wanted to incorporate a loan calculator on certain product pages on their website. My role was to orchestrate the entire project. From what technologies to use, to the design, build, implementation and launch of the application. The colours and fonts represent that of the brand."
-          techUsed="JavaScript, Sass, HTML5."
+          techUsed="JavaScript, SCSS, HTML5."
           splitImage={bfeCalcSplitImage}
           altTagSplit="BFE split image"
           mobileImage={bfeCalcMobileImage}

@@ -7,11 +7,9 @@ import "../skills/skills.scss"
 
 const skills = [
   "React",
-  "React Hooks",
   "JavaScript",
-  "Styled Components",
-  "GatsbyJS",
-  "Sass",
+  "HTML",
+  "SCSS",
   "Accessibility",
   "Adobe XD",
 ]

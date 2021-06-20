@@ -14,13 +14,8 @@ const Home = () => (
       description="JD is a front-end developer and UI Designer. Click here to view some of JD Fillmore's client work and to get a quote today."
     />
     <Hero
-      title="Front-end developer & UI designer."
-      description={[
-        "Experience developing and designing functional, accessible websites and web applications for in-house corporations and clients. Experienced in leading projects, amplifying company revenue and mentoring junior front-end developers.",
-        <br />,
-        <br />,
-        "If you require a technology I haven’t used, I am willing to learn it.",
-      ]}
+      title="👋 Hey, I'm JD. I design and code for the front-end."
+      description="Currently with Battlefield Equipment Rentals as a remote front-end developer &amp; designer."
     />
     <Skills title="Recent Technology Stack" />
     <Work />

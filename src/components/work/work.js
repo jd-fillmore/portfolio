@@ -7,12 +7,9 @@ import ProjectOverview from "../project-overview/project-overview"
 import bfeUsed from "../../images/bfe-used.jpg"
 import bfe from "../../images/freelance-web-designer-niagara.jpg"
 import leafs from "../../images/freelance-web-developer-niagara.jpg"
-import ff7 from "../../images/ff7.jpg"
 import cardon from "../../images/cardon.jpg"
 import hps from "../../images/hps.jpg"
 import cma from "../../images/cma.jpg"
-import mcAesthetics from "../../images/mc.jpg"
-import reactMovie from "../../images/freelance-seo-niagara.jpg"
 import cassabella from "../../images/cassabella.jpg"
 import kd from "../../images/kd.jpg"
 
@@ -46,7 +43,7 @@ class Work extends Component {
                 image={bfe}
                 altTag="BFE Loan Calculator"
                 heading="BFE Loan Calculator"
-                description="JavaScript, Sass, HTML5"
+                description="JavaScript, SCSS, HTML5"
                 linkText="View Project"
                 link="/bf-calculator"
               />
@@ -56,34 +53,11 @@ class Work extends Component {
                 image={leafs}
                 altTag="Maple Leafs Stats"
                 heading="Maple Leafs Stats"
-                description="Adobe XD, React, React Hooks, Styled Components, JavaScript, Node, Axios, REST API, Sass"
+                description="Adobe XD, React, React Hooks, Styled Components, JavaScript, Node, Axios, REST API, SCSS"
                 linkText="View Project"
                 link="/maple-leafs"
               />
             </Column>
-          </Container>
-          <Container className="container two">
-            <Column className="column">
-              <ProjectOverview
-                image={reactMovie}
-                altTag="Movie Database"
-                heading="Movie Database"
-                description="Adobe XD, React, JavaScript, Node, Axios, REST API, Sass"
-                linkText="View Project"
-                link="/react-movie-api"
-              />
-            </Column>
-            <Column className="column">
-              <ProjectOverview
-                image={ff7}
-                altTag="FF7 Stats App"
-                heading="Final Fantasy Stats"
-                description="Adobe XD, React, JavaScript, Node, Sass, JSON"
-                linkText="View Project"
-                link="/ff7"
-              />
-            </Column>
-            <Column className="column">&nbsp;</Column>
           </Container>
           <Container className="container">
             <Column className="column">
@@ -96,7 +70,7 @@ class Work extends Component {
                 image={kd}
                 altTag="KD Flowers"
                 heading="KD Flowers"
-                description="Adobe XD, React, Gatsby, JavaScript, Node, Sass"
+                description="Adobe XD, React, Gatsby, JavaScript, Node, SCSS"
                 linkText="View Project"
                 link="/kd-flowers"
               />
@@ -106,7 +80,7 @@ class Work extends Component {
                 image={cassabella}
                 altTag="Cass-A-Bella Construction"
                 heading="Cass-A-Bella Construction"
-                description="Adobe XD, React, Gatsby, JavaScript, Node, Sass"
+                description="Adobe XD, React, Gatsby, JavaScript, Node, SCSS"
                 linkText="View Project"
                 link="/cassabella-construction"
               />
@@ -116,7 +90,7 @@ class Work extends Component {
                 image={hps}
                 altTag="Hammond"
                 heading="Hammond Power"
-                description="Adobe XD, JavaScript, Node, Sass, HTML5"
+                description="Adobe XD, JavaScript, Node, SCSS, HTML5"
                 linkText="View Project"
                 link="/hps"
               />
@@ -130,7 +104,7 @@ class Work extends Component {
                 image={cma}
                 altTag="CMA"
                 heading="CMA Mortgages"
-                description="Adobe XD, JavaScript, Node, Sass, HTML5"
+                description="Adobe XD, JavaScript, Node, SCSS, HTML5"
                 linkText="View Project"
                 link="/cma"
               />
@@ -140,7 +114,7 @@ class Work extends Component {
                 image={cardon}
                 altTag="Cardon"
                 heading="Cardon Rehab"
-                description="Adobe XD, JavaScript, Node, Sass, HTML5"
+                description="Adobe XD, JavaScript, Node, SCSS, HTML5"
                 linkText="View Project"
                 link="/cardon"
               />
