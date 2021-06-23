@@ -14,7 +14,7 @@ class Footer extends Component {
       title: `Let's Connect`,
       description:
         "Feel free to reach out to me with project ideas or just a friendly hello.",
-      email: "jd@jdfill.me",
+      email: "jdfillmore.dev@gmail.com",
       bottomDescription: "| Built with Gatsby + React",
     }
     return (
@@ -23,7 +23,7 @@ class Footer extends Component {
           <Column className="column">
             <h4>{footerContent.title}</h4>
             <p>{footerContent.description}</p>
-            <a href="mailto:jd@jdfill.me">{footerContent.email}</a>
+            <a href="mailto:jdfillmore.dev@gmail.com">{footerContent.email}</a>
             <p>
               © {new Date().getFullYear()} {footerContent.bottomDescription}
             </p>
@@ -44,7 +44,7 @@ class Footer extends Component {
               <FontAwesomeIcon icon={faLinkedin} width="20" />
             </a>
             <a
-              href="mailto:jd@jdfill.me"
+              href="mailto:jdfillmore.dev@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="email"

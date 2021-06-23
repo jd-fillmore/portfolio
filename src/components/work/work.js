@@ -7,9 +7,7 @@ import ProjectOverview from "../project-overview/project-overview"
 import bfeUsed from "../../images/bfe-used.jpg"
 import bfe from "../../images/freelance-web-designer-niagara.jpg"
 import leafs from "../../images/freelance-web-developer-niagara.jpg"
-import cardon from "../../images/cardon.jpg"
 import hps from "../../images/hps.jpg"
-import cma from "../../images/cma.jpg"
 import cassabella from "../../images/cassabella.jpg"
 import kd from "../../images/kd.jpg"
 
@@ -22,7 +20,7 @@ class Work extends Component {
         <section className="work">
           <Container className="container text-center">
             <Column className="column">
-              <h2>Web Applications</h2>
+              <h2>Featured Web Applications</h2>
             </Column>
           </Container>
           {/* Row 1 */}
@@ -61,7 +59,7 @@ class Work extends Component {
           </Container>
           <Container className="container">
             <Column className="column">
-              <h2>Websites</h2>
+              <h2>Featured Websites</h2>
             </Column>
           </Container>
           <Container className="container">
@@ -98,7 +96,7 @@ class Work extends Component {
           </Container>
 
           {/* Row 2 */}
-          <Container className="container two">
+          {/* <Container className="container two">
             <Column className="column">
               <ProjectOverview
                 image={cma}
@@ -120,7 +118,7 @@ class Work extends Component {
               />
             </Column>
             <Column className="column">&nbsp;</Column>
-          </Container>
+          </Container> */}
         </section>
       </>
     )

@@ -49,7 +49,7 @@ class Hero extends Component {
             </a>
             <span>/</span>
             <a
-              href="mailto:jd@jdfill.me"
+              href="mailto:jdfillmore.dev@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="email"
