@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
+import Fade from "react-reveal/Fade"
 import Container from "../container/container"
 import Column from "../column/column"
 import Section from "../section/section"
@@ -15,7 +16,12 @@ class ProjectDetailed extends Component {
           {/* Laptop Image */}
           <Container className="container">
             <Column className="column">
-              <img src={this.props.introImage} alt={this.props.altTag} />
+              <Link to="/">
+                <p>Back home</p>
+              </Link>
+              <Fade>
+                <img src={this.props.introImage} alt={this.props.altTag} />
+              </Fade>
             </Column>
           </Container>
           {/* Title, Role, Tech, Site Link */}
@@ -53,14 +59,21 @@ class ProjectDetailed extends Component {
           {/* Split Image */}
           <Container className="container">
             <Column className="column">
-              <img src={this.props.splitImage} alt={this.props.altTagSplit} />
+              <Fade>
+                <img src={this.props.splitImage} alt={this.props.altTagSplit} />
+              </Fade>
             </Column>
           </Container>
 
           {/* Mobile Image */}
           <Container className="container">
             <Column className="column">
-              <img src={this.props.mobileImage} alt={this.props.altTagMobile} />
+              <Fade>
+                <img
+                  src={this.props.mobileImage}
+                  alt={this.props.altTagMobile}
+                />
+              </Fade>
             </Column>
           </Container>
           {/* Back */}

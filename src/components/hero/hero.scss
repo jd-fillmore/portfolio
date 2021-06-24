@@ -6,9 +6,9 @@
 // Hero
 
 .hero {
-  padding-top: 50px;
+  padding-top: 100px;
   @include bp-tablet {
-    padding-top: 0px;
+    padding-top: 20px;
     padding-bottom: 0px;
   }
 

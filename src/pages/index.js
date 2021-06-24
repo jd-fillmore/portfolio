@@ -10,7 +10,7 @@ import Work from "../components/work/work"
 const Home = () => (
   <Layout>
     <SEO
-      title="JD Fillmore | Front-End Developer, UI Designer"
+      title="JD | Front-End Developer, UI Designer"
       description="JD is a front-end developer and UI Designer. Click here to view some of JD Fillmore's client work and to get a quote today."
     />
     <Hero

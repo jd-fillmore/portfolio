@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-
+import Fade from "react-reveal/Fade"
 import Container from "../container/container"
 import Column from "../column/column"
 import ProjectOverview from "../project-overview/project-overview"
@@ -20,78 +20,94 @@ class Work extends Component {
         <section className="work">
           <Container className="container text-center">
             <Column className="column">
-              <h2>Featured Web Applications</h2>
+              <Fade>
+                <h2>Featured Web Applications</h2>
+              </Fade>
             </Column>
           </Container>
           {/* Row 1 */}
 
           <Container className="container">
             <Column className="column">
-              <ProjectOverview
-                image={bfeUsed}
-                altTag="BFE Used Equipment"
-                heading="BFE Used Equipment"
-                description="React, TypeScript, JavaScript, SCSS, REST API"
-                linkText="View Project"
-                link="/bf-used"
-              />
+              <Fade delay={200}>
+                <ProjectOverview
+                  image={bfeUsed}
+                  altTag="BFE Used Equipment"
+                  heading="BFE Used Equipment"
+                  description="React, TypeScript, JavaScript, SCSS, REST API"
+                  linkText="View Project"
+                  link="/bf-used"
+                />
+              </Fade>
             </Column>
             <Column className="column">
-              <ProjectOverview
-                image={bfe}
-                altTag="BFE Loan Calculator"
-                heading="BFE Loan Calculator"
-                description="JavaScript, SCSS, HTML5"
-                linkText="View Project"
-                link="/bf-calculator"
-              />
+              <Fade delay={400}>
+                <ProjectOverview
+                  image={bfe}
+                  altTag="BFE Loan Calculator"
+                  heading="BFE Loan Calculator"
+                  description="JavaScript, SCSS, HTML5"
+                  linkText="View Project"
+                  link="/bf-calculator"
+                />
+              </Fade>
             </Column>
             <Column className="column">
-              <ProjectOverview
-                image={leafs}
-                altTag="Maple Leafs Stats"
-                heading="Maple Leafs Stats"
-                description="Adobe XD, React, React Hooks, Styled Components, JavaScript, Node, Axios, REST API, SCSS"
-                linkText="View Project"
-                link="/maple-leafs"
-              />
+              <Fade delay={600}>
+                <ProjectOverview
+                  image={leafs}
+                  altTag="Maple Leafs Stats"
+                  heading="Maple Leafs Stats"
+                  description="Adobe XD, React, React Hooks, Styled Components, JavaScript, Node, Axios, REST API, SCSS"
+                  linkText="View Project"
+                  link="/maple-leafs"
+                />
+              </Fade>
             </Column>
           </Container>
           <Container className="container">
             <Column className="column">
-              <h2>Featured Websites</h2>
+              <Fade>
+                <h2>Featured Websites</h2>
+              </Fade>
             </Column>
           </Container>
           <Container className="container">
             <Column className="column">
-              <ProjectOverview
-                image={kd}
-                altTag="KD Flowers"
-                heading="KD Flowers"
-                description="Adobe XD, React, Gatsby, JavaScript, Node, SCSS"
-                linkText="View Project"
-                link="/kd-flowers"
-              />
+              <Fade delay={200}>
+                <ProjectOverview
+                  image={kd}
+                  altTag="KD Flowers"
+                  heading="KD Flowers"
+                  description="Adobe XD, React, Gatsby, JavaScript, Node, SCSS"
+                  linkText="View Project"
+                  link="/kd-flowers"
+                />
+              </Fade>
             </Column>
             <Column className="column">
-              <ProjectOverview
-                image={cassabella}
-                altTag="Cass-A-Bella Construction"
-                heading="Cass-A-Bella Construction"
-                description="Adobe XD, React, Gatsby, JavaScript, Node, SCSS"
-                linkText="View Project"
-                link="/cassabella-construction"
-              />
+              <Fade delay={400}>
+                <ProjectOverview
+                  image={cassabella}
+                  altTag="Cass-A-Bella Construction"
+                  heading="Cass-A-Bella Construction"
+                  description="Adobe XD, React, Gatsby, JavaScript, Node, SCSS"
+                  linkText="View Project"
+                  link="/cassabella-construction"
+                />
+              </Fade>
             </Column>
             <Column className="column">
-              <ProjectOverview
-                image={hps}
-                altTag="Hammond"
-                heading="Hammond Power"
-                description="Adobe XD, JavaScript, Node, SCSS, HTML5"
-                linkText="View Project"
-                link="/hps"
-              />
+              <Fade delay={600}>
+                <ProjectOverview
+                  image={hps}
+                  altTag="Hammond"
+                  heading="Hammond Power"
+                  description="Adobe XD, JavaScript, Node, SCSS, HTML5"
+                  linkText="View Project"
+                  link="/hps"
+                />
+              </Fade>
             </Column>
           </Container>
 

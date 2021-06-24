@@ -13,7 +13,7 @@ import Nav from "./nav/nav"
 import Footer from "./footer/footer"
 
 // Import base styles
-import '../components/base.scss'
+import "../components/base.scss"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -28,7 +28,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Nav siteTitle={data.site.siteMetadata.title} />
+        {/* <Nav siteTitle={data.site.siteMetadata.title} /> */}
         <div>
           <main>{children}</main>
         </div>
