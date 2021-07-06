@@ -2,6 +2,4 @@
 
 My portfolio! Built with React, Gatsby, JavaScript, HTML5, CSS3, Bootstrap 4, NPM.
 
-Showcase: https://jdfill.me/portfolio
-
-Direct link: https://jdfill.me
+Direct link: https://jdfillmore.netlify.app/
