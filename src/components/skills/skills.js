@@ -8,8 +8,8 @@ import "../skills/skills.scss"
 const skills = [
   "React",
   "JavaScript",
-  "HTML",
-  "SCSS",
+  "HTML5",
+  "Sass",
   "Accessibility",
   "Adobe XD",
 ]

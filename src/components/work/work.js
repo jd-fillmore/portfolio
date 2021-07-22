@@ -34,7 +34,7 @@ class Work extends Component {
                   image={bfeUsed}
                   altTag="BFE Used Equipment"
                   heading="BFE Used Equipment"
-                  description="React, TypeScript, JavaScript, SCSS, REST API"
+                  description="React, TypeScript, Sass, REST API"
                   linkText="View Project"
                   link="/bf-used"
                 />
@@ -46,7 +46,7 @@ class Work extends Component {
                   image={bfe}
                   altTag="BFE Loan Calculator"
                   heading="BFE Loan Calculator"
-                  description="JavaScript, SCSS, HTML5"
+                  description="JavaScript, Sass, HTML5"
                   linkText="View Project"
                   link="/bf-calculator"
                 />
@@ -58,7 +58,7 @@ class Work extends Component {
                   image={leafs}
                   altTag="Maple Leafs Stats"
                   heading="Maple Leafs Stats"
-                  description="Adobe XD, React, React Hooks, Styled Components, JavaScript, Node, Axios, REST API, SCSS"
+                  description="React, Styled Components, JavaScript, Axios, REST API, Sass, Adobe XD"
                   linkText="View Project"
                   link="/maple-leafs"
                 />
@@ -79,7 +79,7 @@ class Work extends Component {
                   image={kd}
                   altTag="KD Flowers"
                   heading="KD Flowers"
-                  description="Adobe XD, React, Gatsby, JavaScript, Node, SCSS"
+                  description="React, Gatsby, JavaScript, Sass, Adobe XD"
                   linkText="View Project"
                   link="/kd-flowers"
                 />
@@ -91,7 +91,7 @@ class Work extends Component {
                   image={cassabella}
                   altTag="Cass-A-Bella Construction"
                   heading="Cass-A-Bella Construction"
-                  description="Adobe XD, React, Gatsby, JavaScript, Node, SCSS"
+                  description="React, Gatsby, JavaScript, Sass, Adobe XD"
                   linkText="View Project"
                   link="/cassabella-construction"
                 />
@@ -103,7 +103,7 @@ class Work extends Component {
                   image={hps}
                   altTag="Hammond"
                   heading="Hammond Power"
-                  description="Adobe XD, JavaScript, Node, SCSS, HTML5"
+                  description="JavaScript, HTML5, Sass, Adobe XD"
                   linkText="View Project"
                   link="/hps"
                 />
@@ -118,7 +118,7 @@ class Work extends Component {
                 image={cma}
                 altTag="CMA"
                 heading="CMA Mortgages"
-                description="Adobe XD, JavaScript, Node, SCSS, HTML5"
+                description="Adobe XD, JavaScript, Node, Sass, HTML5"
                 linkText="View Project"
                 link="/cma"
               />
@@ -128,7 +128,7 @@ class Work extends Component {
                 image={cardon}
                 altTag="Cardon"
                 heading="Cardon Rehab"
-                description="Adobe XD, JavaScript, Node, SCSS, HTML5"
+                description="Adobe XD, JavaScript, Node, Sass, HTML5"
                 linkText="View Project"
                 link="/cardon"
               />
