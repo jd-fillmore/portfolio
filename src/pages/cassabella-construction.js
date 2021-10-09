@@ -23,7 +23,7 @@ const FF7 = () => (
           introImage={cassIntroImage}
           altTag="cass intro image"
           projectTitle="Cass-A-Bella Construction"
-          projectLink="https://cassabellaconstruction.com"
+          projectLink="https://cass-a-bellaconstruction.com"
           projectDescription="Reached out to Cass-A-Bella Construction, offering to re-design and re-build their website on a modern platform. Their current website was very outdated in terms of design and technology stack. I decided to completely re-design and re-build their website from the ground up, using modern design and front-end development technologies. The website is now faster, more performant and accessible, and looks a lot nicer than previously."
           techUsed="Adobe XD, React, Gatsby, JavaScript, Node, Sass."
           githubText="View Code on Github"
