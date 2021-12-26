@@ -15,7 +15,7 @@ const Home = () => (
     />
     <Hero
       title="👋 J.D. Fillmore - Front-End Developer"
-      description="Producing high quality responsive websites and exceptional user experience"
+      description="Front-End Developer with 8 years of experience designing and developing responsive websites & web applications for small to large companies."
     />
     <Skills title="Recent Technology Stack" />
     <Work />
