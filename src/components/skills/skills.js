@@ -7,11 +7,12 @@ import "../skills/skills.scss"
 
 const skills = [
   "React",
+  "TypeScript",
   "JavaScript",
   "HTML5",
   "Sass",
   "Accessibility",
-  "Adobe XD",
+  "Figma",
 ]
 
 class Skills extends Component {
